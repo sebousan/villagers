@@ -25,3 +25,12 @@ admin:
       - cta
       - form
       - paragraph
+    paragraph:
+      - title
+      - text_markdown
+  
+  # Fields
+  fields:
+    hero:
+      - title
+      - text_markdown
