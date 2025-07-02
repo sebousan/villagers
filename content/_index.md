@@ -53,13 +53,13 @@ blocks:
       - label: Company
         name: company
         type: text
-        required: false
+        required: true
         full: true
         autocomplete: organization
       - label: Email
         name: email
         type: email
-        required: false
+        required: true
         full: true
         autocomplete: email
       - label: Call
