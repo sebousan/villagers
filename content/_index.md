@@ -62,7 +62,7 @@ blocks:
         required: true
         full: true
         autocomplete: email
-      - label: Call
+      - label: VideoCall
         name: subject
         type: radio
         required: false
