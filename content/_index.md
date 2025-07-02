@@ -39,7 +39,7 @@ blocks:
     heading:
       surtitle: Contact
       title: Call or espresso
-    grid: medium
+    grid: small
     offset: center
     name: contact
     submit: Send
