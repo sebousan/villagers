@@ -5,17 +5,17 @@ title: Legal mentions
 description: Legal mentions page
 ---
 
-## Welcome to demo.hugolify.io
+## Welcome to villagers.ch
 
 By using this site, you acknowledge having read the provisions below and you agree to respect them. The legal notices indicated below may change, we invite you to consult them regularly.
 
 ## Editor
 
-The demo.hugolify.io website is the property of {{< blank_link link="https://www.uncinq.dev" text="Un Cinq" >}}.
+The villagers.ch website is the property of Villagers.
 
 ## Hosting
 
-The site demo.hugolify.io is hosted at:
+The site villagers.ch is hosted at:
 
 Netlify,\
 2325 3rd Street, \
@@ -29,3 +29,10 @@ https://www.netlify.com
 ## Conception
 
 This site was designed with [Hugolify](https://www.hugolify.io), an open-source Jamstack solution, which allows you to design a site that is as environmentally friendly as possible and closest to accessibility criteria.
+
+## Credits
+
+### Fonts
+
+* Landour
+* Morganite Pro 

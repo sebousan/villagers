@@ -1,1 +1,12 @@
 _merge: deep
+admin:
+  cms: pagescms
+
+  # collections
+  
+  # blocks
+  blocks:
+    enable:
+      - cta
+      - form
+      - paragraph
