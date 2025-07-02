@@ -2,8 +2,8 @@
 isPage: true
 draft: false
 title: Privacy policy
+description: Privacy policy page
 ---
-
 ## Audience measurement
 
 No audience measurement is used on this site.
