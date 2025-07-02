@@ -470,6 +470,8 @@ content:
             values:
             - label: Email
               value: email
+            - label: Radio
+              value: radio
             - label: Select
               value: select
             - label: Tel

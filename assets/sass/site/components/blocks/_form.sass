@@ -1,9 +1,12 @@
 .block-form
     background-color: $black
     color: $white
-    input
+    input,
+    select,
+    textarea
         --bs-border-color: #{$secondary}
         --bs-body-bg: transparent
+        --bs-body-color: #{$secondary}
     .btn
         @include button-outline-variant($secondary, white)
         background-color: transparent
