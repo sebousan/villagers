@@ -26,6 +26,7 @@ admin:
       - form
       - paragraph
     paragraph:
+      - surtitle
       - title
       - text_markdown
   

@@ -140,7 +140,7 @@ content:
       name: url
       required: false
       type: string
-    - hint: Enter code lang (e.g. fr) if different of the current page language
+    - description: Enter code lang (e.g. fr) if different of the current page language
       i18n: true
       label: Language
       name: lang
@@ -168,14 +168,15 @@ content:
     name: title
     required: false
     type: string
-  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
+      preview
     i18n: true
     label: Description
     name: description
     required: false
     type: text
   - choose_url: false
-    hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+    description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
     i18n: duplicate
     label: Image
     media_library:
@@ -187,7 +188,7 @@ content:
     public_type: collection
     required: false
     type: image
-  - hint: Username
+  - description: Username
     i18n: duplicate
     label: Twitter/X
     name: twitter
@@ -216,22 +217,26 @@ content:
     name: draft
     required: false
     type: boolean
-  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
+      preview
     i18n: true
     label: Page title
     name: title
     required: true
     type: string
-  - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
+  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
+      preview
     i18n: true
     label: Description
     name: description
     required: false
     type: text
   - collapsed: true
+    description: Displayed in search results, and in SMS/Messages/Social networks
+      preview
     fields:
     - choose_url: false
-      hint: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
       i18n: duplicate
       label: Image
       media_library:
@@ -243,13 +248,13 @@ content:
       public_type: collection
       required: false
       type: image
-    - hint: For an image that conveys information (leave blank if decorative image)
+    - description: For an image that conveys information (leave blank if decorative
+        image)
       i18n: true
       label: Text alternative
       name: alt
       required: false
       type: string
-    hint: Displayed in search results, and in SMS/Messages/Social networks preview
     i18n: true
     label: Image principale
     name: image
@@ -335,7 +340,8 @@ content:
           name: url
           required: false
           type: string
-        - hint: Enter code lang (e.g. fr) if different of the current page language
+        - description: Enter code lang (e.g. fr) if different of the current page
+            language
           i18n: true
           label: Language
           name: lang
@@ -402,7 +408,7 @@ content:
         required: false
         summary: '{{title}}'
         type: object
-      - hint: ""
+      - description: ""
         i18n: duplicate
         label: Grid
         name: grid
@@ -420,7 +426,7 @@ content:
             value: full
         required: true
         type: select
-      - hint: ""
+      - description: ""
         i18n: duplicate
         label: Offset
         name: offset
@@ -456,7 +462,7 @@ content:
           name: name
           required: false
           type: string
-        - hint: ""
+        - description: ""
           i18n: duplicate
           label: Type
           name: type
@@ -474,7 +480,8 @@ content:
               value: textarea
           required: false
           type: select
-        - fields:
+        - description: Only for select fields
+          fields:
           - i18n: true
             label: Title
             name: title
@@ -485,7 +492,6 @@ content:
             name: value
             required: false
             type: string
-          hint: Only for select fields
           i18n: true
           label: Options
           label_singular: Option
@@ -508,7 +514,7 @@ content:
           name: placeholder
           required: false
           type: string
-        - hint: ""
+        - description: ""
           i18n: duplicate
           label: Autocomplete
           name: autocomplete
@@ -563,6 +569,11 @@ content:
     - collapsed: false
       fields:
       - i18n: true
+        label: Surtitle
+        name: surtitle
+        required: false
+        type: string
+      - i18n: true
         label: Title
         name: title
         required: false
@@ -595,7 +606,7 @@ content:
     name: blocks
     required: false
     type: block
-  - hint: Leave empty to automate with the title. **Be careful to SEO impact.**
+  - description: Leave empty to automate with the title. **Be careful to SEO impact.**
     i18n: true
     label: Slug
     name: slug
