@@ -63,10 +63,14 @@ blocks:
         full: true
         autocomplete: email
       - label: Call
-        type: radio
         name: subject
+        type: radio
+        required: false
+        full: false
       - label: Espresso
-        type: radio
         name: subject
+        type: radio
+        required: false
+        full: false
     background: false
 ---
