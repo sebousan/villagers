@@ -18,6 +18,11 @@ blocks:
     heading:
       surtitle: Origins
       title: Born in 2025. Shape over the years
+      text: Villagers founder Johann Bernast brought over 15 years of experience
+        working with top global agencies such as DDB and BETC in Paris, as well
+        as managing in-house brands like Jaeger-LeCoultre in Geneva. Having
+        worked both within brands and alongside them, he became convinced that
+        the traditional agency / brand relationship needed to be reinvented.
     ctas:
       - text: Connect on LinkedIn
         url: https://www.linkedin.com/in/johannbernast/
