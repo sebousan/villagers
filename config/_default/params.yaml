@@ -12,6 +12,12 @@ admin:
   collections:
     indexes:
       enable: false
+    config:
+      files:
+        - nav-legal
+        - nav-social 
+        - footer 
+        - seo
 
   # Blocks
   blocks:
