@@ -1,10 +1,19 @@
 _merge: deep
 admin:
-  cms: pagescms
 
-  # collections
-  
-  # blocks
+  # Config
+  cms: pagescms
+  nested:
+    depth: 0
+  auth:
+    netlify_identity: false
+
+  # Collections
+  collections:
+    indexes:
+      enable: false
+
+  # Blocks
   blocks:
     enable:
       - cta
