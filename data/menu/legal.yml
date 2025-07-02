@@ -3,7 +3,7 @@ links:
     url: /legal-mentions/
     blank: false
     is_highlighted: false
-  - title: Privacy polity
-    url: privacy-polity
+  - title: Privacy policy
+    url: /privacy-policy/
     blank: false
     is_highlighted: false
