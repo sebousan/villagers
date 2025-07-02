@@ -10,11 +10,13 @@ hero:
     you, not just for you, to grow not just bigger, but better.
 blocks:
   - type: paragraph
+    surtitle: "01"
     title: We don’t maker ads we build brands.
     text: Whether it’s a brand film, a social media activation or a pop up, our
       creative work breaks conventions and sparks emotion. We treat every
       touchpoint as a chance to tell your story.
   - type: paragraph
+    surtitle: "02"
     title: We dare to break frontiers.
     text: We believe that brands that dare to be different are the ones that stand
       out. We don’t follow trends. We go beyond the brief to craft bold,
