@@ -33,4 +33,32 @@ blocks:
         url: https://www.linkedin.com/in/johannbernast/
         blank: true
     background: false
+  - type: form
+    heading:
+      surtitle: Contact
+      title: Call or espresso
+    grid: medium
+    offset: center
+    name: contact
+    submit: Send
+    items:
+      - label: Name
+        name: name
+        type: text
+        required: true
+        full: true
+        autocomplete: name
+      - label: Company
+        name: company
+        type: text
+        required: false
+        full: true
+        autocomplete: organization
+      - label: Email
+        name: email
+        type: email
+        required: false
+        full: true
+        autocomplete: email
+    background: false
 ---
