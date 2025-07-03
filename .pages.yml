@@ -56,6 +56,63 @@ content:
     required: false
     type: object
   i18n: true
+  label: Primary navigation
+  name: primary
+  path: data/menu/primary.yml
+  type: file
+- fields:
+  - fields:
+    - i18n: true
+      label: Title
+      name: title
+      required: false
+      type: string
+    - i18n: true
+      label: URL
+      name: url
+      required: false
+      type: string
+    - i18n: true
+      label: Is blank?
+      name: blank
+      required: false
+      type: boolean
+    - i18n: true
+      label: Is highlighted?
+      name: is_highlighted
+      required: false
+      type: boolean
+    - fields:
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        type: string
+      - i18n: true
+        label: URL
+        name: url
+        required: false
+        type: string
+      - i18n: true
+        label: Is blank?
+        name: blank
+        required: false
+        type: boolean
+      i18n: true
+      label: Links
+      label_singular: Link
+      list: true
+      name: links
+      required: false
+      type: object
+    i18n: true
+    label: Links
+    label_singular: Link
+    list: true
+    name: links
+    required: false
+    type: object
+  i18n: true
   label: Legals navigation (mentions, policy…)
   name: legal
   path: data/menu/legal.yml
@@ -205,13 +262,6 @@ content:
     preview: false
   fields:
   - default: true
-    hidden: true
-    i18n: duplicate
-    label: is page
-    name: isPage
-    required: false
-    type: boolean
-  - default: true
     i18n: true
     label: Draft
     name: draft
@@ -231,35 +281,6 @@ content:
     name: description
     required: false
     type: text
-  - collapsed: true
-    description: Displayed in search results, and in SMS/Messages/Social networks
-      preview
-    fields:
-    - choose_url: false
-      description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
-      i18n: duplicate
-      label: Image
-      media_library:
-        config:
-          max_file_size: 700000
-      media_type: collection
-      name: src
-      path: /images/uploads
-      public_type: collection
-      required: false
-      type: image
-    - description: For an image that conveys information (leave blank if decorative
-        image)
-      i18n: true
-      label: Text alternative
-      name: alt
-      required: false
-      type: string
-    i18n: true
-    label: Image principale
-    name: image
-    required: false
-    type: object
   - collapsed: true
     fields:
     - i18n: true
@@ -286,11 +307,6 @@ content:
     name: hero
     required: false
     type: object
-  - i18n: true
-    label: Body
-    name: body
-    required: false
-    type: rich-text
   - blockKey: type
     blocks:
     - collapsed: false
@@ -608,16 +624,6 @@ content:
     name: blocks
     required: false
     type: block
-  - description: Leave empty to automate with the title. **Be careful to SEO impact.**
-    i18n: true
-    label: Slug
-    name: slug
-    pattern:
-      message: Contain only lowercase letters, numbers, and hyphens, with no spaces,
-        accents, or special characters
-      regex: ^(|[a-z0-9-]&#43;)$
-    required: false
-    type: string
   filename: '{fields.title}/_index.md'
   i18n: true
   label: Pages

@@ -28,6 +28,13 @@ admin:
         - nav-social 
         - footer 
         - seo
+    pages:
+      fields:
+        - draft
+        - title_page
+        - description
+        - hero
+        - blocks
 
   # Blocks
   blocks:
