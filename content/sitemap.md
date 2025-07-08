@@ -1,5 +1,4 @@
 ---
-draft: false
+draft: true
 title: Sitemap
-url: sitemap
 ---
