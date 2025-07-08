@@ -50,7 +50,6 @@
       "description",
       "form",
       "full",
-      "grid",
       "header",
       "heading",
       "help",
@@ -76,7 +75,6 @@
       "surtitle",
       "text",
       "title",
-      "toc",
       "top"
     ],
     "ids": null

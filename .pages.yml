@@ -302,6 +302,44 @@ content:
       name: text
       required: false
       type: rich-text
+    - collapsed: true
+      fields:
+      - choose_url: false
+        description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+        i18n: duplicate
+        label: Image
+        media_library:
+          config:
+            max_file_size: 700000
+        media_type: collection
+        name: src
+        path: /images/uploads
+        public_type: collection
+        required: false
+        type: image
+      - description: For an image that conveys information (leave blank if decorative
+          image)
+        i18n: true
+        label: Text alternative
+        name: alt
+        required: false
+        type: string
+      - buttons:
+        - link
+        editor_components: []
+        i18n: true
+        label: Credit
+        minimal: true
+        modes:
+        - rich_text
+        name: credit
+        required: false
+        type: rich-text
+      i18n: true
+      label: Image
+      name: image
+      required: false
+      type: object
     i18n: true
     label: Hero
     name: hero
