@@ -1,5 +1,4 @@
 ---
-isPage: true
 draft: false
 title: Home
 hero:
@@ -21,6 +20,25 @@ blocks:
     text: We believe that brands that dare to be different are the ones that stand
       out. We don’t follow trends. We go beyond the brief to craft bold,
       memorable brand experiences.
+  - type: paragraph
+    surtitle: "03"
+    title: We are moving as one.
+    text: "We operate like a control tower, connecting all players: your internal
+      teams, other external agencies, freelancers, production partners... We
+      make sure everyone moves in sync, with a shared vision and clear
+      standards."
+  - type: paragraph
+    surtitle: "04"
+    title: We do more with less.
+    text: From workflows to team structures to production models, we optimize
+      everything. We find smarter ways to do more with less and make sure every
+      cent you invest in creativity pays off.
+  - type: paragraph
+    surtitle: "05"
+    title: We build culturally relevant forces.
+    text: People who align with your brand’s culture, speak its language, and embody
+      its values. Tailored teams that intuitively understand your business and
+      connect authentically with your audience.
   - type: cta
     heading:
       surtitle: Origins
