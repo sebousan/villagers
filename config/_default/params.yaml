@@ -6,8 +6,12 @@ logo:
 # Javascripts
 animation: false
 bootstrap:
+  carousel: false
+  collapse: false
   dropdown: false
   modal: false
+  offcanvas: false
+  tooltip: false
 carousel: false
 map: false
 parallax:
@@ -58,3 +62,4 @@ admin:
     hero:
       - title
       - text_markdown
+      - image

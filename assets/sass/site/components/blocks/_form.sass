@@ -7,6 +7,17 @@
         --bs-border-color: #{$secondary}
         --bs-body-bg: transparent
         --bs-body-color: #{$secondary}
+    input[type=radio]
+        cursor: pointer
+        height: 2.5rem
+        margin-top: 0
+        width: 2.5rem
+        & + label
+            cursor: pointer
+            margin-bottom: 0
+            margin-top: .5rem
+            padding-left: .25rem
+    .help
+        color: $gray-600
     .btn
-        @include button-outline-variant($secondary, white)
-        background-color: transparent
+        @include button-variant(transparent, $secondary, $secondary, $secondary, $secondary, black)
