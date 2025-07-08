@@ -2,12 +2,13 @@
 draft: false
 title: Home
 hero:
-  surtitle: 5 reasons why we are differents
   title: Artisans of creative growth
   text: In a noisy world, brands need more than just ideas. they need unified
     creative systems to turn bold visions into reality. We are not an other
     agency but a true partner to scale your creative ambitions, to build with
     you, not just for you, to grow not just bigger, but better.
+  image:
+    src: /images/uploads/background.png
 blocks:
   - type: paragraph
     surtitle: "01"
