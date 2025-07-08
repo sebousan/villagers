@@ -17,6 +17,10 @@ map: false
 parallax:
   enable: false
 
+# Images
+hero:
+  cover: 1600x800
+
 # Admin
 admin:
 

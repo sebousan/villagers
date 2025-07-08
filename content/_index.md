@@ -8,6 +8,7 @@ hero:
     agency but a true partner to scale your creative ambitions, to build with
     you, not just for you, to grow not just bigger, but better.
   image:
+    background_image: true
     src: /images/uploads/background.png
 blocks:
   - type: paragraph
