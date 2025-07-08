@@ -2,6 +2,7 @@
 draft: false
 title: Home
 hero:
+  surtitle: 5 reasons why we are differents
   title: Artisans of creative growth
   text: In a noisy world, brands need more than just ideas. they need unified
     creative systems to turn bold visions into reality. We are not an other

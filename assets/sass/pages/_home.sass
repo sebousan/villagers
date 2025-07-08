@@ -1,8 +1,14 @@
 .home-page
     .hero
+        &-content
+            background: url("/assets/images/fingerprint.svg") no-repeat center top
+            padding-top: 15rem
         .container
             min-height: $home-hero-min-height-mobile
+            padding-top: 5rem
             @include media-breakpoint-up(md)
                 min-height: $home-hero-min-height
+        .description
+            color: $primary
     main
         padding-bottom: 0
