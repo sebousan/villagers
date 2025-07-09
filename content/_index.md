@@ -84,11 +84,13 @@ blocks:
         full: true
         autocomplete: email
       - label: VideoCall
+        value: VideoCall
         name: subject
         type: radio
         required: false
         full: false
       - label: Espresso
+        value: Espresso
         name: subject
         type: radio
         required: false
