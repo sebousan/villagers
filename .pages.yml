@@ -516,7 +516,7 @@ content:
           name: name
           required: false
           type: string
-        - description: ""
+        - description: Choose type field
           i18n: duplicate
           label: Type
           name: type
@@ -524,6 +524,8 @@ content:
             values:
             - label: Email
               value: email
+            - label: Checkbox
+              value: checkbox
             - label: Radio
               value: radio
             - label: Select
@@ -555,7 +557,8 @@ content:
           name: options
           required: false
           type: object
-        - i18n: true
+        - description: Only for checkbox and radio fields
+          i18n: true
           label: Value
           name: value
           required: false
@@ -674,3 +677,4 @@ content:
   name: pages
   path: content
   type: collection
+
