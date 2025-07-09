@@ -555,6 +555,11 @@ content:
           name: options
           required: false
           type: object
+        - i18n: true
+          label: Value
+          name: value
+          required: false
+          type: string
         - i18n: duplicate
           label: Required
           name: required
