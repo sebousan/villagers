@@ -7,6 +7,9 @@ hero:
     creative systems to turn bold visions into reality. We are not an other
     agency but a true partner to scale your creative ambitions, to build with
     you, not just for you, to grow not just bigger, but better.
+  video:
+    webm: /images/uploads/video_desktop.webm
+    webm_mobile: /images/uploads/video_mobile.webm
 blocks:
   - type: paragraph
     surtitle: "01"
@@ -81,15 +84,15 @@ blocks:
         full: true
         autocomplete: email
       - label: VideoCall
-        value: VideoCall
         name: subject
         type: radio
+        value: VideoCall
         required: false
         full: false
       - label: Espresso
-        value: Espresso
         name: subject
         type: radio
+        value: Espresso
         required: false
         full: false
     image:
