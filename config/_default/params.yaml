@@ -75,3 +75,8 @@ admin:
       - title
       - text_markdown
       - video
+    video:
+      - video_mp4
+      - video_webm
+      - video_mp4_mobile
+      - video_webm_mobile

@@ -330,41 +330,32 @@ content:
         public_type: collection
         required: false
         type: file
-      - default: true
+      - choose_url: false
+        description: Video (MP4)
         i18n: duplicate
-        label: Controls
-        name: controls
+        label: Mobile MP4
+        media_library:
+          config:
+            max_file_size: 5000000
+        media_type: collection
+        name: mp4_mobile
+        path: /assets/videos
+        public_type: collection
         required: false
-        type: boolean
-      - default: false
+        type: file
+      - choose_url: false
+        description: Video (WEBM)
         i18n: duplicate
-        label: Autoplay
-        name: autoplay
+        label: Mobile WEBM
+        media_library:
+          config:
+            max_file_size: 5000000
+        media_type: collection
+        name: webm_mobile
+        path: /assets/videos
+        public_type: collection
         required: false
-        type: boolean
-      - default: false
-        i18n: duplicate
-        label: Loop
-        name: loop
-        required: false
-        type: boolean
-      - default: false
-        description: Add fake browser
-        i18n: duplicate
-        label: Is screenshot?
-        name: screenshot
-        required: false
-        type: boolean
-      - i18n: true
-        label: Legend
-        name: legend
-        required: false
-        type: string
-      - i18n: true
-        label: Transcription
-        name: transcription
-        required: false
-        type: text
+        type: file
       i18n: true
       label: Video
       name: video
