@@ -249,6 +249,8 @@ content:
       config:
         max_file_size: 700000
     name: src
+    options:
+      categories: images
     required: false
     type: image
   - description: Username
@@ -314,64 +316,44 @@ content:
         description: Video (MP4)
         i18n: duplicate
         label: MP4
-        media_library:
-          config:
-            max_file_size: 5000000
-        media_type: collection
         name: mp4
         options:
+          categories: videos
           extensions:
           - mp4
-        path: /assets/videos
-        public_type: collection
         required: false
         type: file
       - choose_url: false
         description: Video (WEBM)
         i18n: duplicate
         label: WEBM
-        media_library:
-          config:
-            max_file_size: 5000000
-        media_type: collection
         name: webm
         options:
+          categories: videos
           extensions:
           - webm
-        path: /assets/videos
-        public_type: collection
         required: false
         type: file
       - choose_url: false
         description: Video (MP4)
         i18n: duplicate
         label: Mobile MP4
-        media_library:
-          config:
-            max_file_size: 5000000
-        media_type: collection
         name: mp4_mobile
         options:
+          categories: videos
           extensions:
           - mp4
-        path: /assets/videos
-        public_type: collection
         required: false
         type: file
       - choose_url: false
         description: Video (WEBM)
         i18n: duplicate
         label: Mobile WEBM
-        media_library:
-          config:
-            max_file_size: 5000000
-        media_type: collection
         name: webm_mobile
         options:
+          categories: videos
           extensions:
           - webm
-        path: /assets/videos
-        public_type: collection
         required: false
         type: file
       i18n: true
@@ -667,6 +649,8 @@ content:
             config:
               max_file_size: 700000
           name: src
+          options:
+            categories: images
           required: false
           type: image
         - description: For an image that conveys information (leave blank if decorative
