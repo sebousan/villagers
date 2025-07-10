@@ -1,21 +1,12 @@
 media:
-  - name: files
-    label: Files
-    input: static/assets/pdf
-    output: /assets/pdf
-    categories: [ document ]
-  - name: audios
-    label: Audios
-    input: static/assets/audios
-    output: /assets/audios
-    categories: [ audios ]
   - name: videos
-    label: Videos
+    label: 'Videos'
     input: static/assets/videos
     output: /assets/videos
     categories: [ videos ]
+  
   - name: images
-    label: Images
+    label: 'Images'
     input: assets/images/uploads
     output: /images/uploads
     categories: [ image ]
@@ -387,7 +378,7 @@ content:
         required: false
         type: file
       i18n: true
-      label: Video
+      label: Videos
       name: video
       required: false
       type: object
@@ -703,7 +694,7 @@ content:
           required: false
           type: rich-text
         i18n: true
-        label: Image
+        label: Images
         name: image
         required: false
         type: object

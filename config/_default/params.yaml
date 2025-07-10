@@ -33,6 +33,9 @@ admin:
     depth: 0
   auth:
     netlify_identity: false
+  media:
+    audio_folders: false
+    pdf_folders: false
 
   # Collections
   collections:
