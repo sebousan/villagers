@@ -3,7 +3,7 @@ media:
     label: 'Videos'
     input: static/assets/videos
     output: /assets/videos
-    categories: [ videos ]
+    categories: [ video ]
   
   - name: images
     label: 'Images'
@@ -245,12 +245,9 @@ content:
     description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
     i18n: true
     label: Image
-    media_library:
-      config:
-        max_file_size: 700000
     name: src
     options:
-      categories: images
+      categories: image
     required: false
     type: image
   - description: Username
@@ -318,7 +315,7 @@ content:
         label: MP4
         name: mp4
         options:
-          categories: videos
+          categories: video
           extensions:
           - mp4
         required: false
@@ -329,7 +326,7 @@ content:
         label: WEBM
         name: webm
         options:
-          categories: videos
+          categories: video
           extensions:
           - webm
         required: false
@@ -340,7 +337,7 @@ content:
         label: Mobile MP4
         name: mp4_mobile
         options:
-          categories: videos
+          categories: video
           extensions:
           - mp4
         required: false
@@ -351,7 +348,7 @@ content:
         label: Mobile WEBM
         name: webm_mobile
         options:
-          categories: videos
+          categories: video
           extensions:
           - webm
         required: false
@@ -645,12 +642,9 @@ content:
           description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
           i18n: true
           label: Image
-          media_library:
-            config:
-              max_file_size: 700000
           name: src
           options:
-            categories: images
+            categories: image
           required: false
           type: image
         - description: For an image that conveys information (leave blank if decorative
