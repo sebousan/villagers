@@ -1,11 +1,12 @@
 media:
   - name: videos
-    label: 'Videos test'
+    label: 'Videos'
     input: static/assets/videos
     output: /assets/videos
     categories: [ videos ]
+  
   - name: images
-    label: 'Images test'
+    label: 'Images'
     input: assets/images/uploads
     output: /images/uploads
     categories: [ image ]
@@ -242,15 +243,12 @@ content:
     type: text
   - choose_url: false
     description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
-    i18n: duplicate
+    i18n: true
     label: Image
     media_library:
       config:
         max_file_size: 700000
-    media_type: collection
     name: src
-    path: /images/uploads
-    public_type: collection
     required: false
     type: image
   - description: Username
@@ -663,15 +661,12 @@ content:
         fields:
         - choose_url: false
           description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
-          i18n: duplicate
+          i18n: true
           label: Image
           media_library:
             config:
               max_file_size: 700000
-          media_type: collection
           name: src
-          path: /images/uploads
-          public_type: collection
           required: false
           type: image
         - description: For an image that conveys information (leave blank if decorative
