@@ -7,9 +7,6 @@ hero:
     creative systems to turn bold visions into reality. We are not an other
     agency but a true partner to scale your creative ambitions, to build with
     you, not just for you, to grow not just bigger, but better.
-  image:
-    background_image: true
-    src: /images/uploads/background.png
 blocks:
   - type: paragraph
     surtitle: "01"
@@ -95,5 +92,6 @@ blocks:
         type: radio
         required: false
         full: false
-    background: false
+    image:
+      src: /images/uploads/background.png
 ---

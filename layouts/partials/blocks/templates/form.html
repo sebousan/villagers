@@ -1,0 +1,17 @@
+{{- if .items -}}
+<section class="block-form" {{- partial "func/SetAnim.html" (dict "element" "block") }}>
+  {{- with .image }}
+    {{- $cover := site.Params.hero.cover -}}
+    {{- $mobile := site.Params.hero.cover_mobile -}}
+    {{ partial "commons/image.html" (dict
+        "src" .src
+        "alt" .alt
+        "desktop" $cover
+        "mobile" $mobile
+    ) }}
+  {{- end }}
+  {{ partial "blocks/templates/form/header.html" . }}
+  {{ partial "blocks/templates/form/body.html" . }}
+  {{ partial "blocks/templates/form/footer.html" . }}
+</section>
+{{- end -}}

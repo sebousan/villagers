@@ -56,6 +56,14 @@ admin:
       - cta
       - form
       - paragraph
+    form:
+      - heading
+      - grid 
+      - offset
+      - name 
+      - submit 
+      - form_items
+      - image
     paragraph:
       - surtitle
       - title
@@ -66,4 +74,4 @@ admin:
     hero:
       - title
       - text_markdown
-      - image
+      - video
