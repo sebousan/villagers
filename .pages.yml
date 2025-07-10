@@ -1,6 +1,24 @@
 media:
-  input: assets/images/uploads
-  output: /images/uploads
+  - name: files
+    label: Files
+    input: static/assets/pdf
+    output: /assets/pdf
+    categories: [ document ]
+  - name: audios
+    label: Audios
+    input: static/assets/audios
+    output: /assets/audios
+    categories: [ audios ]
+  - name: videos
+    label: Videos
+    input: static/assets/videos
+    output: /assets/videos
+    categories: [ videos ]
+  - name: images
+    label: Images
+    input: assets/images/uploads
+    output: /images/uploads
+    categories: [ image ]
 
 content:
 - fields:
@@ -313,6 +331,9 @@ content:
             max_file_size: 5000000
         media_type: collection
         name: mp4
+        options:
+          extensions:
+          - mp4
         path: /assets/videos
         public_type: collection
         required: false
@@ -326,6 +347,9 @@ content:
             max_file_size: 5000000
         media_type: collection
         name: webm
+        options:
+          extensions:
+          - webm
         path: /assets/videos
         public_type: collection
         required: false
@@ -339,6 +363,9 @@ content:
             max_file_size: 5000000
         media_type: collection
         name: mp4_mobile
+        options:
+          extensions:
+          - mp4
         path: /assets/videos
         public_type: collection
         required: false
@@ -352,6 +379,9 @@ content:
             max_file_size: 5000000
         media_type: collection
         name: webm_mobile
+        options:
+          extensions:
+          - webm
         path: /assets/videos
         public_type: collection
         required: false

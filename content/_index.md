@@ -8,8 +8,9 @@ hero:
     agency but a true partner to scale your creative ambitions, to build with
     you, not just for you, to grow not just bigger, but better.
   video:
-    webm: /images/uploads/video_desktop.webm
-    webm_mobile: /images/uploads/video_mobile.webm
+    background_video: true
+    webm: /assets/videos/video_desktop.webm
+    webm_mobile: /assets/videos/video_mobile.webm
 blocks:
   - type: paragraph
     surtitle: "01"

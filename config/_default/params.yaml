@@ -16,6 +16,9 @@ carousel: false
 map: false
 parallax:
   enable: false
+  cover: -2
+  video: -2
+  heading: 0
 
 # Images
 hero:

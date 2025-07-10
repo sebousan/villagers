@@ -31,7 +31,8 @@
       "span",
       "sup",
       "title",
-      "ul"
+      "ul",
+      "video"
     ],
     "classes": [
       "404-page",
@@ -55,10 +56,14 @@
       "help",
       "hero",
       "hero-content",
+      "hero-cover",
       "hero-media",
+      "hero-with-cover",
       "home-page",
       "hugolify",
       "information",
+      "is-lazy",
+      "js-video",
       "linkedin",
       "logo",
       "nav",

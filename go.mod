@@ -2,6 +2,11 @@ module github.com/sebousan/villagers
 
 go 1.21
 
+replace (
+	github.com/hugolify/hugolify-theme => ../_hugolify/hugolify-theme
+	github.com/hugolify/hugolify-admin => ../_hugolify/hugolify-admin
+)
+
 require (
 	github.com/Splidejs/splide v4.1.3+incompatible // indirect
 	github.com/dixonandmoe/rellax v0.0.0-20240824005335-9ed6cb0aae03 // indirect
