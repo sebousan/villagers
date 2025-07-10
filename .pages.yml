@@ -1,12 +1,11 @@
 media:
   - name: videos
-    label: 'Videos'
+    label: 'Videos test'
     input: static/assets/videos
     output: /assets/videos
     categories: [ videos ]
-  
   - name: images
-    label: 'Images'
+    label: 'Images test'
     input: assets/images/uploads
     output: /images/uploads
     categories: [ image ]
