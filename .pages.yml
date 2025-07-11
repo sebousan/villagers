@@ -247,7 +247,7 @@ content:
     label: Image
     name: src
     options:
-      categories: image
+      media: images
     required: false
     type: image
   - description: Username
@@ -315,8 +315,6 @@ content:
         label: MP4
         name: mp4
         options:
-          categories:
-          - video
           extensions:
           - mp4
           media: videos
@@ -328,8 +326,6 @@ content:
         label: WEBM
         name: webm
         options:
-          categories:
-          - video
           extensions:
           - webm
           media: videos
@@ -341,8 +337,6 @@ content:
         label: Mobile MP4
         name: mp4_mobile
         options:
-          categories:
-          - video
           extensions:
           - mp4
           media: videos
@@ -354,8 +348,6 @@ content:
         label: Mobile WEBM
         name: webm_mobile
         options:
-          categories:
-          - video
           extensions:
           - webm
           media: videos
@@ -652,7 +644,7 @@ content:
           label: Image
           name: src
           options:
-            categories: image
+            media: images
           required: false
           type: image
         - description: For an image that conveys information (leave blank if decorative
