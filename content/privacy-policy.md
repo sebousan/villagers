@@ -16,7 +16,7 @@ hero:
     you visit our website \[yourwebsite.com\].
 
 
-    1\. Information We Collect
+    **1\. Information We Collect**
 
 
     We may collect personal information in the following ways:
@@ -33,7 +33,7 @@ hero:
     spent on the site.
 
 
-    2\. How We Use Your Information
+    **2\. How We Use Your Information**
 
 
     We use the data we collect for purposes including:
