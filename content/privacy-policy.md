@@ -3,7 +3,6 @@ draft: false
 title: Privacy policy
 description: Privacy policy page
 hero:
-  title: Privacy Policy
   text: >-
     Effective Date: 07/16/2025
 
