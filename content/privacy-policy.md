@@ -7,13 +7,13 @@ hero:
     Privacy Policy
 
 
-    Effective Date: \[Insert Date\]
+    Effective Date: 07/16/2025
 
 
-    At \[Your Website Name\] ("we", "our", or "us"), we value your privacy and
-    are committed to protecting your personal information. This Privacy Policy
-    explains how we collect, use, disclose, and safeguard your information when
-    you visit our website \[yourwebsite.com\].
+    At Villagers, we value your privacy and are committed to protecting your
+    personal information. This Privacy Policy explains how we collect, use,
+    disclose, and safeguard your information when you visit our website
+    \[yourwebsite.com\].
 
 
     **1\. Information We Collect**
@@ -52,7 +52,7 @@ hero:
     To analyze and improve our content, functionality, and user experience
 
 
-    3\. Sharing Your Information
+    **3\. Sharing Your Information**
 
 
     We do not sell or rent your personal information. We may share it with third
