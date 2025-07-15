@@ -4,16 +4,13 @@ title: Privacy policy
 description: Privacy policy page
 hero:
   text: >-
-    ## **Privacy Policy**
+    **Effective Date:** 15/07/2025
 
 
-    **Effective Date:** \[Insert Date\]
-
-
-    At \[Your Website Name\] ("we", "our", or "us"), we value your privacy and
-    are committed to protecting your personal information. This Privacy Policy
-    explains how we collect, use, disclose, and safeguard your information when
-    you visit our website \[[villagers.ch](http://yourwebsite.com)\].
+    At VILLAGERS, we value your privacy and are committed to protecting your
+    personal information. This Privacy Policy explains how we collect, use,
+    disclose, and safeguard your information when you visit our website
+    \[[villagers.ch](http://yourwebsite.com)\].
 
 
     ### **1\. Information We Collect**
