@@ -23,6 +23,7 @@ parallax:
 # Images
 hero:
   cover: 1600x800
+  cover_mobile: 360x800
 
 # Admin
 admin:
