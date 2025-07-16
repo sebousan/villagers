@@ -10,7 +10,7 @@ blocks:
       we invite you to consult them regularly.
   - type: paragraph
     title: Editor
-    text: The villagers.ch website is the property of Villagers.
+    text: The villagers.ch website is the property of Villagers, Boulevard Georges 36, 1205 Geneva, Switzerland.
   - type: paragraph
     title: Hosting
     text: |-

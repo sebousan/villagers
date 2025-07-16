@@ -1,6 +1,14 @@
 .hero
+    &-cover
+        min-height: 100vh
+        min-height: 100dvh
     .row
         justify-content: center
         text-align: center
     .description
+        @include margin-bottom(3rem)
         color: $secondary
+    .cta
+        justify-content: center
+        .btn
+            @include button-variant(transparent, $secondary, $secondary, $secondary, $secondary, black)

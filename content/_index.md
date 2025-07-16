@@ -7,6 +7,9 @@ hero:
     creative systems to turn bold visions into reality. We are not an other
     agency but a true partner to scale your creative ambitions, to build with
     you, not just for you, to grow not just bigger, but better.
+  ctas:
+    - text: 5 reasons why we are differents
+      url: /#main
   video:
     background_video: true
     webm: /assets/videos/video_desktop.webm
