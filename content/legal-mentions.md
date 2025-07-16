@@ -10,7 +10,7 @@ blocks:
       we invite you to consult them regularly.
   - type: paragraph
     title: Editor
-    text: The villagers.ch website is the property of Johann Bernast.
+    text: The villagers.ch website is the property of Villagers.
   - type: paragraph
     title: Hosting
     text: |-
@@ -26,18 +26,18 @@ blocks:
       [https://www.netlify.com](https://www.netlify.com)
   - type: paragraph
     title: Solution
-    text: This site was designed with [Hugolify](https://www.hugolify.io), an
+    text: This site was developed with [Hugolify](https://www.hugolify.io), an
       open-source Jamstack solution, which allows you to design a site that is
       as environmentally friendly as possible and closest to accessibility
       criteria.
   - type: paragraph
     title: Credits
     text: |-
-      ### Development
+      **Development**
 
-      [Un Cinq](https://uncinq.dev)
+      This website was developed by [Un Cinq](https://uncinq.dev)
 
-      ### Fonts
+      **Fonts**
 
       *   Landour
           
