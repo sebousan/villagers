@@ -81,6 +81,7 @@ admin:
       - title
       - text_markdown
       - video
+      - ctas
     video:
       - video_mp4
       - video_webm

@@ -1,14 +1,15 @@
 media:
-  - name: videos
-    label: 'Videos'
-    input: static/assets/videos
-    output: /assets/videos
-    categories: [ video ]
   - name: images
     label: 'Images'
     input: assets/images/uploads
     output: /images/uploads
     categories: [ image ]
+  - name: videos
+    label: 'Videos'
+    input: static/assets/videos
+    output: /assets/videos
+    categories: [ video ]
+  
 
 content:
 - fields:
@@ -240,8 +241,7 @@ content:
     name: description
     required: false
     type: text
-  - choose_url: false
-    description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+  - description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
     i18n: true
     label: Image
     name: src
@@ -308,8 +308,7 @@ content:
       type: rich-text
     - collapsed: true
       fields:
-      - choose_url: false
-        description: Video (MP4)
+      - description: Video (MP4)
         i18n: duplicate
         label: MP4
         name: mp4
@@ -319,8 +318,7 @@ content:
           media: videos
         required: false
         type: file
-      - choose_url: false
-        description: Video (WEBM)
+      - description: Video (WEBM)
         i18n: duplicate
         label: WEBM
         name: webm
@@ -330,8 +328,7 @@ content:
           media: videos
         required: false
         type: file
-      - choose_url: false
-        description: Video (MP4)
+      - description: Video (MP4)
         i18n: duplicate
         label: Mobile MP4
         name: mp4_mobile
@@ -341,8 +338,7 @@ content:
           media: videos
         required: false
         type: file
-      - choose_url: false
-        description: Video (WEBM)
+      - description: Video (WEBM)
         i18n: duplicate
         label: Mobile WEBM
         name: webm_mobile
@@ -356,6 +352,40 @@ content:
       label: Videos
       name: video
       required: false
+      type: object
+    - allow_add: true
+      collapsed: true
+      fields:
+      - i18n: true
+        label: Text
+        name: text
+        required: false
+        type: string
+      - i18n: true
+        label: URL
+        name: url
+        required: false
+        type: string
+      - description: Enter code lang (e.g. fr) if different of the current page language
+        i18n: true
+        label: Language
+        name: lang
+        required: false
+        type: string
+      - i18n: true
+        label: Is blank?
+        name: blank
+        required: false
+        type: boolean
+      i18n: true
+      label: CTAs
+      label_singular: CTA
+      list: true
+      max: 2
+      min: 0
+      name: ctas
+      required: false
+      summary: '{{fields.text}}'
       type: object
     i18n: true
     label: Hero
@@ -637,8 +667,7 @@ content:
         type: object
       - collapsed: true
         fields:
-        - choose_url: false
-          description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+        - description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
           i18n: true
           label: Image
           name: src
