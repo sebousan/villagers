@@ -35,7 +35,7 @@ blocks:
     text: |-
       **Development**
 
-      This website was developed by [Un Cinq](https://uncinq.dev)
+      This website was developed by [Un Cinq](https://uncinq.dev).
 
       **Fonts**
 
