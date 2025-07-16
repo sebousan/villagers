@@ -25,7 +25,7 @@ blocks:
 
       [https://www.netlify.com](https://www.netlify.com)
   - type: paragraph
-    title: Conception
+    title: Solution
     text: This site was designed with [Hugolify](https://www.hugolify.io), an
       open-source Jamstack solution, which allows you to design a site that is
       as environmentally friendly as possible and closest to accessibility
@@ -33,6 +33,10 @@ blocks:
   - type: paragraph
     title: Credits
     text: |-
+      ### Development
+
+      [Un Cinq](https://uncinq.dev)
+
       ### Fonts
 
       *   Landour
