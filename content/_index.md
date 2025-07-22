@@ -7,17 +7,17 @@ hero:
     creative systems to turn bold visions into reality. We are not an other
     agency but a true partner to scale your creative ambitions, to build with
     you, not just for you, to grow not just bigger, but better.
+  video:
+    webm: /assets/videos/video_desktop.webm
+    webm_mobile: /assets/videos/video_mobile.webm
   ctas:
     - text: 5 reasons why we are differents
       url: /#main
-  video:
-    background_video: true
-    webm: /assets/videos/video_desktop.webm
-    webm_mobile: /assets/videos/video_mobile.webm
+      blank: false
 blocks:
   - type: paragraph
     surtitle: "01"
-    title: We don’t maker ads we build brands.
+    title: We don’t make ads we build brands.
     text: Whether it’s a brand film, a social media activation or a pop up, our
       creative work breaks conventions and sparks emotion. We treat every
       touchpoint as a chance to tell your story.
