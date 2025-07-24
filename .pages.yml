@@ -355,7 +355,7 @@ content:
         required: false
         type: file
       i18n: true
-      label: Videos
+      label: Video
       name: video
       required: false
       type: object
@@ -700,7 +700,7 @@ content:
           required: false
           type: rich-text
         i18n: true
-        label: Images
+        label: Image
         name: image
         required: false
         type: object
