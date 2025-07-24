@@ -84,6 +84,7 @@ admin:
       - video
       - ctas
     video:
+      - is_background
       - video_mp4
       - video_webm
       - video_mp4_mobile

@@ -1,5 +1,5 @@
 {{- with .image }}
-  {{- if .background_image }}
+  {{- if .background }}
     {{- $picture_class := "hero-cover" -}}
     {{- $cover := site.Params.hero.cover -}}
     {{- $mobile := site.Params.hero.cover_mobile -}}
@@ -18,7 +18,7 @@
   {{- end }}
 {{- else }}
   {{- with .video }}
-    {{- if .background_video }}
+    {{- if .background }}
       {{- if or .mp4 .webm }}
         <div class="hero-cover">
           {{- $video := . | merge (dict "autoplay" true "loop" true) -}}
