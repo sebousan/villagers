@@ -1,3 +1,5 @@
+settings: false
+
 media:
   - name: images
     label: 'Images'
@@ -9,7 +11,6 @@ media:
     input: static/assets/videos
     output: /assets/videos
     categories: [ video ]
-  
 
 content:
 - fields:
@@ -29,34 +30,6 @@ content:
       name: blank
       required: false
       type: boolean
-    - i18n: true
-      label: Is highlighted?
-      name: is_highlighted
-      required: false
-      type: boolean
-    - fields:
-      - i18n: true
-        label: Title
-        name: title
-        required: false
-        type: string
-      - i18n: true
-        label: URL
-        name: url
-        required: false
-        type: string
-      - i18n: true
-        label: Is blank?
-        name: blank
-        required: false
-        type: boolean
-      i18n: true
-      label: Links
-      label_singular: Link
-      list: true
-      name: links
-      required: false
-      type: object
     i18n: true
     label: Links
     label_singular: Link
@@ -86,34 +59,6 @@ content:
       name: blank
       required: false
       type: boolean
-    - i18n: true
-      label: Is highlighted?
-      name: is_highlighted
-      required: false
-      type: boolean
-    - fields:
-      - i18n: true
-        label: Title
-        name: title
-        required: false
-        type: string
-      - i18n: true
-        label: URL
-        name: url
-        required: false
-        type: string
-      - i18n: true
-        label: Is blank?
-        name: blank
-        required: false
-        type: boolean
-      i18n: true
-      label: Links
-      label_singular: Link
-      list: true
-      name: links
-      required: false
-      type: object
     i18n: true
     label: Links
     label_singular: Link
@@ -143,34 +88,6 @@ content:
       name: blank
       required: false
       type: boolean
-    - i18n: true
-      label: Is highlighted?
-      name: is_highlighted
-      required: false
-      type: boolean
-    - fields:
-      - i18n: true
-        label: Title
-        name: title
-        required: false
-        type: string
-      - i18n: true
-        label: URL
-        name: url
-        required: false
-        type: string
-      - i18n: true
-        label: Is blank?
-        name: blank
-        required: false
-        type: boolean
-      i18n: true
-      label: Links
-      label_singular: Link
-      list: true
-      name: links
-      required: false
-      type: object
     i18n: true
     label: Links
     label_singular: Link
@@ -204,12 +121,6 @@ content:
     - i18n: true
       label: URL
       name: url
-      required: false
-      type: string
-    - description: Enter code lang (e.g. fr) if different of the current page language
-      i18n: true
-      label: Language
-      name: lang
       required: false
       type: string
     - i18n: true

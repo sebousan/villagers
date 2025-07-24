@@ -78,11 +78,19 @@ admin:
   
   # Fields
   fields:
+    cta:
+      - text
+      - url
+      - is_blank
     hero:
       - title
       - text_markdown
       - video
       - ctas
+    links:
+      - title 
+      - url
+      - is_blank
     video:
       - is_background
       - video_mp4
