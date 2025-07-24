@@ -308,6 +308,12 @@ content:
       type: rich-text
     - collapsed: true
       fields:
+      - default: false
+        i18n: duplicate
+        label: Background?
+        name: background
+        required: false
+        type: boolean
       - description: Video (MP4)
         i18n: duplicate
         label: MP4
