@@ -1,8 +1,1 @@
-{{- $css := resources.Get "sass/main.sass" -}}
-{{ if hugo.IsProduction }}
-  {{- $css = $css | fingerprint -}}
-{{ end }}
-{{ with $css }}
-  <link rel="preload" href="{{ .RelPermalink }}" as="style">
-{{ end }}
 <link rel="preload" href="/assets/fonts/morganite-pro/MorganitePro-Regular.woff2" as="font" type="font/woff2" crossorigin />
