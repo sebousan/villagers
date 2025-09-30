@@ -23,10 +23,13 @@ blocks:
       Work that captures attention and drives measurable business growth.
   - type: paragraph
     surtitle: "02"
-    title: We dare to break frontiers.
-    text: We believe that brands that dare to be different are the ones that stand
-      out. We don’t follow trends. We go beyond the brief to craft bold,
-      memorable brand experiences.
+    title: One ecosystem.  One voice.  One brand.
+    text: >-
+      **Villagers unites strategy, creative, and production inside one connected
+      system.**  
+
+      Seamless collaboration, stronger brand coherence and faster execution
+      everywhere.
   - type: paragraph
     surtitle: "03"
     title: We are moving as one.
