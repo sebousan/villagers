@@ -40,9 +40,11 @@ blocks:
   - type: paragraph
     surtitle: "04"
     title: Efficiency without compromise.
-    text: '<p style="text-align: justify"><strong>Smarter workflows and agile
-      production replace bloated processes and waste.</strong><br>More creative
-      output, lower costs, and zero drop in quality.</p>'
+    text: >-
+      **Smarter workflows and agile production replace bloated processes and
+      waste.**  
+
+      More creative output, lower costs, and zero drop in quality.
   - type: paragraph
     surtitle: "05"
     title: We build culturally relevant forces.
