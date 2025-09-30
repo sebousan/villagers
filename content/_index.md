@@ -13,7 +13,6 @@ hero:
   video:
     background: true
     mp4: /assets/videos/video.mp4
-    webm: /assets/videos/video_desktop.webm
     webm_mobile: /assets/videos/video_mobile.webm
 blocks:
   - type: paragraph
