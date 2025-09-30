@@ -13,7 +13,7 @@ hero:
     webm: /assets/videos/video_desktop.webm
     webm_mobile: /assets/videos/video_mobile.webm
   ctas:
-    - text: 5 reasons why we are differents
+    - text: WHO ARE VILLAGERS
       url: /#main
       blank: false
 blocks:
