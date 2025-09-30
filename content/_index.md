@@ -2,13 +2,14 @@
 draft: false
 title: Home
 hero:
-  title: Artisans of creative growth
-  text: In a noisy world, brands need more than just ideas. they need unified
-    creative systems to turn bold visions into reality. We are not an other
-    agency but a true partner to scale your creative ambitions, to build with
-    you, not just for you, to grow not just bigger, but better.
+  title: A collective force where creativity meets marketing intelligence
+  text: Creative agencies are relics of a world that no longer exists. The future
+    belongs to brands that unite creative brilliance with operational
+    intelligence—where strategy, storytelling, and production move as one. These
+    are the brands that act fast, stay consistent across every touchpoint, and
+    turn creativity into performance. **Villagers** was built for them.
   video:
-    background: true
+    background: false
     webm: /assets/videos/video_desktop.webm
     webm_mobile: /assets/videos/video_mobile.webm
   ctas:
