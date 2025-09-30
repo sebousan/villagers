@@ -12,8 +12,8 @@ hero:
     and turn creativity into performance. **Villagers was built for them.**
   video:
     background: true
-    mp4: /assets/videos/video.mp4
-    webm_mobile: /assets/videos/video_mobile.webm
+    mp4: /assets/videos/video_desktop.mp4
+    mp4_mobile: /assets/videos/video_mobile.mp4
 blocks:
   - type: paragraph
     surtitle: "01"
