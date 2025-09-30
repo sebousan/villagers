@@ -12,10 +12,6 @@ hero:
     background: true
     webm: /assets/videos/video_desktop.webm
     webm_mobile: /assets/videos/video_mobile.webm
-  ctas:
-    - text: WHO ARE VILLAGERS
-      url: /#main
-      blank: false
 blocks:
   - type: paragraph
     surtitle: "01"
