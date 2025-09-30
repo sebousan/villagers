@@ -15,10 +15,12 @@ hero:
 blocks:
   - type: paragraph
     surtitle: "01"
-    title: We don’t make ads we build brands.
-    text: Whether it’s a brand film, a social media activation or a pop up, our
-      creative work breaks conventions and sparks emotion. We treat every
-      touchpoint as a chance to tell your story.
+    title: Bold ideas  built to deliver.
+    text: >-
+      **Villagers fuse creative daring with strategic intelligence to move both
+      hearts and numbers.**  
+
+      Work that captures attention and drives measurable business growth.
   - type: paragraph
     surtitle: "02"
     title: We dare to break frontiers.
