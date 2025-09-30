@@ -32,17 +32,21 @@ blocks:
       everywhere.
   - type: paragraph
     surtitle: "03"
-    title: We are moving as one.
-    text: "We operate like a control tower, connecting all players: your internal
-      teams, other external agencies, freelancers, production partners... We
-      make sure everyone moves in sync, with a shared vision and clear
-      standards."
+    title: Collaboration,  not hierarchy.
+    text: >-
+      Villagers works like a true collective: transparent, collaborative, and
+      plugged into your teams and partners.  
+
+      Faster decisions, smoother processes, and creative work that feels truly
+      yours.
   - type: paragraph
     surtitle: "04"
-    title: We do more with less.
-    text: From workflows to team structures to production models, we optimize
-      everything. We find smarter ways to do more with less and make sure every
-      cent you invest in creativity pays off.
+    title: Efficiency without compromise.
+    text: >-
+      Smarter workflows and agile production replace bloated processes and
+      waste.  
+
+      More creative output, lower costs, and zero drop in quality.
   - type: paragraph
     surtitle: "05"
     title: We build culturally relevant forces.
