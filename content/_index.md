@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Home
+title: Villagers - A New Kind of Creative Partner based in Geneva
 hero:
   title: A collective force where creativity meets marketing intelligence
   text: Creative agencies are relics of a world that no longer exists. The future
