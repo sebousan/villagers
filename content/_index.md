@@ -9,7 +9,7 @@ hero:
     are the brands that act fast, stay consistent across every touchpoint, and
     turn creativity into performance. **Villagers** was built for them.
   video:
-    background: false
+    background: true
     webm: /assets/videos/video_desktop.webm
     webm_mobile: /assets/videos/video_mobile.webm
   ctas:
