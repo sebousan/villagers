@@ -7,9 +7,9 @@ hero:
   title: A collective force where creativity meets marketing intelligence
   text: Creative agencies are relics of a world that no longer exists. The future
     belongs to brands that unite creative brilliance with operational
-    intelligence—where strategy, storytelling, and production move as one. These
-    are the brands that act fast, stay consistent across every touchpoint, and
-    turn creativity into performance. **Villagers** was built for them.
+    intelligence. Where strategy, storytelling, and production move as one.
+    These are the brands that act fast, stay consistent across every touchpoint,
+    and turn creativity into performance. **Villagers was built for them.**
   video:
     background: true
     mp4: /assets/videos/video.mp4
