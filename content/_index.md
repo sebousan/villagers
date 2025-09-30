@@ -50,9 +50,9 @@ blocks:
   - type: paragraph
     surtitle: "05"
     title: We build culturally relevant forces.
-    text: People who align with your brand’s culture, speak its language, and embody
-      its values. Tailored teams that intuitively understand your business and
-      connect authentically with your audience.
+    text: "**People who align with your brand’s culture, speak its language, and
+      embody its values.** Tailored teams that intuitively understand your
+      business and connect authentically with your audience."
   - type: cta
     heading:
       surtitle: Origins
