@@ -32,7 +32,7 @@ blocks:
       everywhere.
   - type: paragraph
     surtitle: "03"
-    title: Collaboration,  not hierarchy.
+    title: Collaboration, not hierarchy.
     text: '<p style="text-align: justify"><strong>Villagers works like a true
       collective: transparent, collaborative, and plugged into your teams and
       partners. </strong>Faster decisions, smoother processes, and creative work
