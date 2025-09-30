@@ -1,6 +1,8 @@
 ---
 draft: false
-title: Villagers - A New Kind of Creative Partner based in Geneva
+title: Villagers - A New Kind of Creative Partner based in Geneva - Artisans of
+  Creative Growth
+description: A New Kind of Creative Partner based in Geneva - Artisans of Creative Growth
 hero:
   title: A collective force where creativity meets marketing intelligence
   text: Creative agencies are relics of a world that no longer exists. The future
