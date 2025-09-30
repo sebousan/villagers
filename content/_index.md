@@ -33,20 +33,16 @@ blocks:
   - type: paragraph
     surtitle: "03"
     title: Collaboration,  not hierarchy.
-    text: >-
-      Villagers works like a true collective: transparent, collaborative, and
-      plugged into your teams and partners.  
-
-      Faster decisions, smoother processes, and creative work that feels truly
-      yours.
+    text: '<p style="text-align: justify"><strong>Villagers works like a true
+      collective: transparent, collaborative, and plugged into your teams and
+      partners.<br></strong>Faster decisions, smoother processes, and creative
+      work that feels truly yours.</p>'
   - type: paragraph
     surtitle: "04"
     title: Efficiency without compromise.
-    text: >-
-      Smarter workflows and agile production replace bloated processes and
-      waste.  
-
-      More creative output, lower costs, and zero drop in quality.
+    text: '<p style="text-align: justify"><strong>Smarter workflows and agile
+      production replace bloated processes and waste.</strong><br>More creative
+      output, lower costs, and zero drop in quality.</p>'
   - type: paragraph
     surtitle: "05"
     title: We build culturally relevant forces.
