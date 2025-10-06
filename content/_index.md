@@ -23,6 +23,20 @@ blocks:
       hearts and numbers.**  
 
       Work that captures attention and drives measurable business growth.
+  - type: cta
+    heading:
+      surtitle: Origins
+      title: Born in 2025. Shape over the years
+      text: Villagers founder Johann Bernast brought over 15 years of experience
+        working with top global agencies such as DDB and BETC in Paris, as well
+        as managing in-house brands like Jaeger-LeCoultre in Geneva. Having
+        worked both within brands and alongside them, he became convinced that
+        the traditional agency / brand relationship needed to be reinvented.
+    ctas:
+      - text: Connect on LinkedIn
+        url: https://www.linkedin.com/in/johannbernast/
+        blank: true
+    background: false
   - type: paragraph
     surtitle: "02"
     title: One ecosystem.  One voice.  One brand.
@@ -52,20 +66,6 @@ blocks:
     text: "**People who align with your brand’s culture, speak its language, and
       embody its values.** Tailored teams that intuitively understand your
       business and connect authentically with your audience."
-  - type: cta
-    heading:
-      surtitle: Origins
-      title: Born in 2025. Shape over the years
-      text: Villagers founder Johann Bernast brought over 15 years of experience
-        working with top global agencies such as DDB and BETC in Paris, as well
-        as managing in-house brands like Jaeger-LeCoultre in Geneva. Having
-        worked both within brands and alongside them, he became convinced that
-        the traditional agency / brand relationship needed to be reinvented.
-    ctas:
-      - text: Connect on LinkedIn
-        url: https://www.linkedin.com/in/johannbernast/
-        blank: true
-    background: false
   - type: form
     heading:
       surtitle: Contact
