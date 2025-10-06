@@ -15,14 +15,6 @@ hero:
     mp4: /assets/videos/video_desktop.mp4
     mp4_mobile: /assets/videos/video_mobile.mp4
 blocks:
-  - type: paragraph
-    surtitle: "01"
-    title: Bold ideas  built to deliver.
-    text: >-
-      **Villagers fuse creative daring with strategic intelligence to move both
-      hearts and numbers.**  
-
-      Work that captures attention and drives measurable business growth.
   - type: cta
     heading:
       surtitle: Origins
@@ -37,6 +29,14 @@ blocks:
         url: https://www.linkedin.com/in/johannbernast/
         blank: true
     background: false
+  - type: paragraph
+    surtitle: "01"
+    title: Bold ideas  built to deliver.
+    text: >-
+      **Villagers fuse creative daring with strategic intelligence to move both
+      hearts and numbers.**  
+
+      Work that captures attention and drives measurable business growth.
   - type: paragraph
     surtitle: "02"
     title: One ecosystem.  One voice.  One brand.
