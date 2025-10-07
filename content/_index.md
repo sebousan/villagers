@@ -42,14 +42,12 @@ blocks:
     surtitle: OUR CORE DNA
     title: To bring coherence to complexity.
     text: >-
-      Brands today speak across hundreds of touchpoints, agencies, and markets.
-      It’s easy to lose control of consistency, tone, and meaning. Villagers
-      acts as the connecting layer ; the control tower that ensures every
-      expression of your brand moves in harmony. We simplify the complex,
+      **Villagers acts as the connecting layer ; the control tower that ensures
+      every expression of your brand moves in harmony. We simplify the complex,
       aligning strategy, storytelling, and production so your message stays
-      unified wherever it lives.  
+      unified wherever it lives.**  
 
-      **Our Goal : Make your brand recognizable and coherent everywhere.**
+      Our Goal : Make your brand recognizable and coherent everywhere.
   - type: paragraph
     surtitle: OUR CORE DNA
     title: To merge imagination with intelligence
