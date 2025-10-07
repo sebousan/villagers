@@ -29,32 +29,26 @@ blocks:
     surtitle: "01"
     title: To make creativity truly work.
     text: >-
-      Creativity only matters when it moves people and drives business. At
+      **Creativity only matters when it moves people and drives business. At
       Villagers, we design ideas that adapt across every touchpoint and feed
-      your entire consumer journey. 
+      your entire consumer journey. Because if creativity doesn’t connect and
+      convert, it’s just wallpaper. We don’t fight for awards. We fight for
+      ROI.  
 
+      **  
 
-      **Because if creativity doesn’t connect and convert, it’s just
-      wallpaper.**
-
-
-      We don’t fight for awards. We fight for ROI. Every idea we craft is built
-      to perform, to spark emotion and deliver measurable results.  
-        
-      **Our Goal : Transform creativity from a cost into a growth engine.**
+      Our Goal : Transform creativity from a cost into a growth engine.
   - type: paragraph
     surtitle: OUR CORE DNA
     title: To bring coherence to complexity.
     text: >-
       Brands today speak across hundreds of touchpoints, agencies, and markets.
-      It’s easy to lose control of consistency, tone, and meaning.
-
-
-      Villagers acts as the connecting layer ; the control tower that ensures
-      every expression of your brand moves in harmony. We simplify the complex,
+      It’s easy to lose control of consistency, tone, and meaning. Villagers
+      acts as the connecting layer ; the control tower that ensures every
+      expression of your brand moves in harmony. We simplify the complex,
       aligning strategy, storytelling, and production so your message stays
-      unified wherever it lives.   
-        
+      unified wherever it lives.  
+
       **Our Goal : Make your brand recognizable and coherent everywhere.**
   - type: paragraph
     surtitle: OUR CORE DNA
