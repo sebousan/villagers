@@ -26,7 +26,7 @@ blocks:
         blank: true
     background: false
   - type: paragraph
-    surtitle: "01"
+    surtitle: OUR CORE DNA
     title: To make creativity truly work.
     text: >-
       **Creativity only matters when it moves people and drives business. At
