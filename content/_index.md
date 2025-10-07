@@ -27,12 +27,21 @@ blocks:
     background: false
   - type: paragraph
     surtitle: "01"
-    title: Bold ideas  built to deliver.
+    title: To make creativity truly work.
     text: >-
-      **Villagers fuse creative daring with strategic intelligence to move both
-      hearts and numbers.**  
+      Creativity only matters when it moves people and drives business. At
+      Villagers, we design ideas that adapt across every touchpoint and feed
+      your entire consumer journey. 
 
-      Work that captures attention and drives measurable business growth.
+
+      **Because if creativity doesn’t connect and convert, it’s just
+      wallpaper.**
+
+
+      We don’t fight for awards. We fight for ROI. Every idea we craft is built
+      to perform, to spark emotion and deliver measurable results.  
+        
+      **Our Goal : Transform creativity from a cost into a growth engine.**
   - type: paragraph
     surtitle: "02"
     title: One ecosystem.  One voice.  One brand.
