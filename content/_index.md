@@ -65,15 +65,13 @@ blocks:
     title: To merge imagination with intelligence
     text: >-
       **We believe the strongest ideas come from balance, where creativity meets
-      structure.**
+      structure.** Villagers blends daring, original thinking with an
+      understanding of the systems that make ideas real. Our deep knowledge of
+      brand operations and marketing workflows allows us to design creative that
+      not only inspires but scales.
 
 
-      Villagers blends daring, original thinking with an understanding of the
-      systems that make ideas real. 
-
-
-      Our deep knowledge of brand operations and marketing workflows allows us
-      to design creative that not only inspires but scales.
+      Our Goal : Build true creative community that grows with your brand.
   - type: paragraph
     surtitle: OUR CORE DNA
     title: To build together, not apart
