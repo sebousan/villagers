@@ -43,34 +43,66 @@ blocks:
         
       **Our Goal : Transform creativity from a cost into a growth engine.**
   - type: paragraph
-    surtitle: "02"
-    title: One ecosystem.  One voice.  One brand.
+    surtitle: OUR CORE DNA
+    title: To bring coherence to complexity.
     text: >-
-      **Villagers unites strategy, creative, and production inside one connected
-      system.**  
+      Brands today speak across hundreds of touchpoints, agencies, and markets.
+      It’s easy to lose control of consistency, tone, and meaning.
 
-      Seamless collaboration, stronger brand coherence and faster execution
-      everywhere.
+
+      Villagers acts as the connecting layer ; the control tower that ensures
+      every expression of your brand moves in harmony. We simplify the complex,
+      aligning strategy, storytelling, and production so your message stays
+      unified wherever it lives.   
+        
+      **Our Goal : Make your brand recognizable and coherent everywhere.**
   - type: paragraph
-    surtitle: "03"
-    title: Collaboration, not hierarchy.
-    text: "**Villagers works like a true collective: transparent, collaborative, and
-      plugged into your teams and partners.** Faster decisions, smoother
-      processes, and creative work that feels truly yours."
-  - type: paragraph
-    surtitle: "04"
-    title: Efficiency without compromise.
+    surtitle: OUR CORE DNA
+    title: To merge imagination with intelligence
     text: >-
-      **Smarter workflows and agile production replace bloated processes and
-      waste.**  
+      **We believe the strongest ideas come from balance, where creativity meets
+      structure.**
 
-      More creative output, lower costs, and zero drop in quality.
+
+      Villagers blends daring, original thinking with an understanding of the
+      systems that make ideas real. 
+
+
+      Our deep knowledge of brand operations and marketing workflows allows us
+      to design creative that not only inspires but scales.   
+        
+      **Our Goal : make creative excellence operational**
   - type: paragraph
-    surtitle: "05"
-    title: We build culturally relevant forces.
-    text: "**People who align with your brand’s culture, speak its language, and
-      embody its values.** Tailored teams that intuitively understand your
-      business and connect authentically with your audience."
+    surtitle: OUR CORE DNA
+    title: To merge imagination with intelligence
+    text: >-
+      **We believe the strongest ideas come from balance, where creativity meets
+      structure.**
+
+
+      Villagers blends daring, original thinking with an understanding of the
+      systems that make ideas real. 
+
+
+      Our deep knowledge of brand operations and marketing workflows allows us
+      to design creative that not only inspires but scales.
+  - type: paragraph
+    surtitle: OUR CORE DNA
+    title: To build together, not apart
+    text: >-
+      We don’t see ourselves as an external agency but as part of your
+      ecosystem. Villagers was built to collaborate, not dictate.
+
+
+      We work hand in hand with brand and marketing teams, production partners,
+      and creators, building trust through transparency and shared purpose. 
+
+
+      The power of a village lies in its collective intelligence, every voice,
+      every skill, every idea counts.
+
+
+      **Our Goal : Build true creative community that grows with your brand.**
   - type: form
     heading:
       surtitle: Contact
