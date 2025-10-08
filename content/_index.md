@@ -26,18 +26,14 @@ blocks:
         blank: true
     background: false
   - type: paragraph
-    surtitle: OUR CORE DNA
-    title: To make creativity truly work.
-    text: >-
-      **Creativity only matters when it moves people and drives business. At
-      Villagers, we design ideas that adapt across every touchpoint and feed
-      your entire consumer journey. Because if creativity doesn’t connect and
-      convert, it’s just wallpaper. We don’t fight for awards. We fight for
-      ROI.  
-
-      **  
-
-      Our Goal : Transform creativity from a cost into a growth engine.
+    surtitle: WHAT WE STAND ON
+    title: we always dare the unexpected
+    text: "**A lot of brands speaks the same language, same tone, same visuals, same
+      promises.** Uniformity and standardization might make brands safe, but it
+      also makes them invisible. We believe relevance comes from the
+      unexpected. Ideas that break patterns, challenge comfort, and make people
+      feel something real. We exist to bring back the unexpected and believe
+      daring creativity isn’t a [risk.It](http://risk.It)’s a strategy."
   - type: paragraph
     surtitle: OUR CORE DNA
     title: To bring coherence to complexity.
@@ -56,8 +52,9 @@ blocks:
       structure. Villagers blends daring, original thinking with an
       understanding of the systems that make ideas real.  Our deep knowledge of
       brand operations and marketing workflows allows us to design creative that
-      not only inspires but scales.**   
-        
+      not only inspires but scales.** 
+
+
       Our Goal : Make creative excellence operational and operational excellence
       creative
   - type: paragraph
