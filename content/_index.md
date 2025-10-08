@@ -33,7 +33,7 @@ blocks:
       also makes them invisible. We believe relevance comes from the
       unexpected. Ideas that break patterns, challenge comfort, and make people
       feel something real. We exist to bring back the unexpected and believe
-      daring creativity isn’t a [risk.It](http://risk.It)’s a strategy."
+      daring creativity isn’t a risk. It’s a strategy."
   - type: paragraph
     surtitle: WHAT WE STAND ON
     title: WE Align creativity and Ecosystems
