@@ -4,8 +4,9 @@ title: Villagers - A New Kind of Creative Partner based in Geneva - Artisans of
   Creative Growth
 description: A New Kind of Creative Partner based in Geneva - Artisans of Creative Growth
 hero:
-  title: "Traditional agencies are stuck in another era. "
-  text: So we reinvent it.
+  title: A collective force where creativity meets OPERATIONAL intelligence
+  text: For brands that strive to create living ecosystems where creativity works,
+    evolves, and endures.
   video:
     background: true
     mp4: /assets/videos/video_desktop.mp4
