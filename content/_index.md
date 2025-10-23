@@ -1,7 +1,6 @@
 ---
 draft: false
-title: Villagers - The creative powerhouse OF OUTDOOR culture
-description: A New Kind of Creative Partner based in Geneva - Artisans of Creative Growth
+title: Villagers - The creative house OF OUTDOOR culture
 hero:
   title: A collective force where creativity meets OPERATIONAL intelligence
   text: For brands that strive to create living ecosystems where creativity works,
