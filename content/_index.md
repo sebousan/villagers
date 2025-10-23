@@ -2,9 +2,7 @@
 draft: false
 title: Villagers - The creative house OF OUTDOOR culture
 hero:
-  title: A collective force where creativity meets OPERATIONAL intelligence
-  text: For brands that strive to create living ecosystems where creativity works,
-    evolves, and endures.
+  title: Villagers - The creative house OF OUTDOOR culture
   video:
     background: true
     mp4: /assets/videos/video_desktop.mp4
