@@ -16,7 +16,6 @@ const calculateDistance = (x1, y1, x2, y2) => {
 // ------------------------------------------------------------------------
 class MagneticObject {
     constructor(domElement) {
-        console.log(domElement);
         this.domElement = domElement;
         this.boundingClientRect = this.domElement.getBoundingClientRect();
         this.triggerArea = 100;

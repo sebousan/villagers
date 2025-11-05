@@ -74,74 +74,6 @@ content:
   path: data/menu/legal.yml
   type: file
 - fields:
-  - fields:
-    - i18n: true
-      label: Title
-      name: title
-      required: false
-      type: string
-    - i18n: true
-      label: URL
-      name: url
-      required: false
-      type: string
-    - i18n: true
-      label: Is blank?
-      name: blank
-      required: false
-      type: boolean
-    i18n: true
-    label: Links
-    label_singular: Link
-    list: true
-    name: links
-    required: false
-    type: object
-  i18n: true
-  label: Socials navigation
-  name: social
-  path: data/menu/social.yml
-  type: file
-- fields:
-  - i18n: true
-    label: Title
-    name: title
-    required: false
-    type: string
-  - i18n: true
-    label: Text
-    name: text
-    required: false
-    type: text
-  - collapsed: true
-    fields:
-    - i18n: true
-      label: Text
-      name: text
-      required: false
-      type: string
-    - i18n: true
-      label: URL
-      name: url
-      required: false
-      type: string
-    - i18n: true
-      label: Is blank?
-      name: blank
-      required: false
-      type: boolean
-    i18n: true
-    label: CTA
-    name: cta
-    required: false
-    summary: '{{text}}'
-    type: object
-  i18n: true
-  label: Information text at the bottom of the site
-  name: footer
-  path: data/footer.yml
-  type: file
-- fields:
   - i18n: true
     label: Title
     name: title
@@ -271,40 +203,6 @@ content:
       label: Video
       name: video
       required: false
-      type: object
-    - allow_add: true
-      collapsed: true
-      fields:
-      - i18n: true
-        label: Text
-        name: text
-        required: false
-        type: string
-      - i18n: true
-        label: URL
-        name: url
-        required: false
-        type: string
-      - description: Enter code lang (e.g. fr) if different of the current page language
-        i18n: true
-        label: Language
-        name: lang
-        required: false
-        type: string
-      - i18n: true
-        label: Is blank?
-        name: blank
-        required: false
-        type: boolean
-      i18n: true
-      label: CTAs
-      label_singular: CTA
-      list: true
-      max: 2
-      min: 0
-      name: ctas
-      required: false
-      summary: '{{fields.text}}'
       type: object
     i18n: true
     label: Hero
@@ -580,39 +478,6 @@ content:
         required: false
         summary: '{{label}}'
         type: object
-      - collapsed: true
-        fields:
-        - description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
-          i18n: true
-          label: Image
-          name: src
-          options:
-            media: images
-          required: false
-          type: image
-        - description: For an image that conveys information (leave blank if decorative
-            image)
-          i18n: true
-          label: Text alternative
-          name: alt
-          required: false
-          type: string
-        - buttons:
-          - link
-          editor_components: []
-          i18n: true
-          label: Credit
-          minimal: true
-          modes:
-          - rich_text
-          name: credit
-          required: false
-          type: rich-text
-        i18n: true
-        label: Image
-        name: image
-        required: false
-        type: object
       i18n: true
       label: Form
       name: form
@@ -652,6 +517,39 @@ content:
         name: heading
         required: false
         summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          name: src
+          options:
+            media: images
+          required: false
+          type: image
+        - description: For an image that conveys information (leave blank if decorative
+            image)
+          i18n: true
+          label: Text alternative
+          name: alt
+          required: false
+          type: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Credit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          type: rich-text
+        i18n: true
+        label: Image
+        name: image
+        required: false
         type: object
       - collapsed: true
         fields:
