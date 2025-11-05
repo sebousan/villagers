@@ -1,0 +1,7 @@
+<section class="block-title" {{- partial "func/SetAnim.html" (dict "element" "block") }}>
+  {{- with .video }}
+    {{- $video := . | merge (dict "autoplay" true "loop" true) -}}
+    {{ partial "commons/video.html" $video }}
+  {{- end }}
+  {{ partial "blocks/templates/title/header.html" . }}
+</section>

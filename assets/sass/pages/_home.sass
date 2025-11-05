@@ -1,13 +1,9 @@
 .home-page
     header[role="banner"]
-        left: 0
-        position: fixed
-        right: 0
-        &:not(.is-sticky)
-            background-color: transparent
+        display: none
     .hero
         &-content
-            background: url("/assets/images/fingerprint.svg") no-repeat center top
+            background: url("/assets/images/logo.svg") no-repeat center top
             padding-top: 15rem
         .container
             min-height: $home-hero-min-height-mobile
@@ -16,3 +12,4 @@
                 min-height: $home-hero-min-height
     main
         padding-bottom: 0
+        padding-top: 0

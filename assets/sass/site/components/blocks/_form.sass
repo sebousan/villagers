@@ -1,23 +1,12 @@
 .block-form
-    background-color: $black
-    color: $white
-    position: relative
-    picture
-        inset: 0
-        position: absolute
-        img
-            display: block
-            height: 100%
-            width: 100%
-    header,
-    > div
-        position: relative
+    .heading
+        @include margin-bottom($global-spacing-md)
     input,
     select,
     textarea
-        --bs-border-color: #{$secondary}
+        --bs-border-color: #{$primary}
         --bs-body-bg: transparent
-        --bs-body-color: #{$secondary}
+        --bs-body-color: #{$primary}
     input[type=radio]
         cursor: pointer
         height: 2.5rem
@@ -31,4 +20,7 @@
     .help
         color: $gray-600
     .btn
-        @include button-variant(transparent, $secondary, $secondary, $secondary, $secondary, black)
+        @include button-variant(transparent, $primary, $primary, $primary, $primary, $secondary)
+        min-width: 200px
+        @include media-breakpoint-up(md)
+            min-width: 350px

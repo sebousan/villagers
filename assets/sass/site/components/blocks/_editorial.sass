@@ -1,0 +1,32 @@
+.block-editorial
+    background-color: $dark
+    color: $secondary
+    padding-bottom: 0
+    padding-top: 0
+    @include media-breakpoint-up(md)
+        aspect-ratio: $ratio
+        max-height: 100vh
+        width: 100%
+    .container
+        max-width: none
+        padding: 0
+    .row
+        align-items: normal
+        margin: 0
+    .content
+        @include padding($global-spacing)
+        display: flex
+        flex-direction: column
+        justify-content: center
+    .surtitle
+        color: $tertiary
+    .media
+        margin: 0
+        padding: 0
+        width: auto
+    figure,
+    picture,
+    img
+        height: 100%
+        object-fit: cover
+        width: 100%

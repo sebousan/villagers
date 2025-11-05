@@ -1,10 +1,19 @@
 footer[role="contentinfo"]
-    .logo img
-        height: 8rem
-    .top .information
-        grid-column: 1 / 3
-        grid-row: auto
+    .logo 
+        img
+            height: 180px
+            filter: grayscale(1) invert(1)
+    .top,
+    .bottom
+        align-items: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+        text-align: center
+    
+    .bottom
+        @include padding-top($global-spacing-md)
+
+    .description,
     .hugolify
         display: none
-    .top .information
-        padding-top: 0

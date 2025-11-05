@@ -1,8 +1,5 @@
 _merge: deep
 
-logo:
-  footer: /assets/images/logo-fingerprint.svg
-
 # Javascripts
 animation: false
 bootstrap:
@@ -21,9 +18,16 @@ parallax:
   heading: 0
 
 # Images
+image:
+  retina:
+    desktop: true
 hero:
   cover: 1600x800
   cover_mobile: 360x700
+blocks:
+  editorial:
+    desktop: 720x1054
+    mobile: 375x469
 
 # Admin
 admin:
@@ -60,9 +64,15 @@ admin:
   # Blocks
   blocks:
     enable:
-      - cta
+      - editorial
       - form
-      - paragraph
+      - title
+    editorial:
+      - direction
+      - surtitle
+      - title
+      - text_markdown
+      - image
     form:
       - heading
       - grid 
@@ -71,10 +81,9 @@ admin:
       - submit 
       - form_items
       - image
-    paragraph:
-      - surtitle
-      - title
-      - text_markdown
+    title:
+      - heading
+      - video
   
   # Fields
   fields:

@@ -2,65 +2,48 @@
 draft: false
 title: Home
 hero:
-  title: Artisans of creative growth
-  text: In a noisy world, brands need more than just ideas. they need unified
-    creative systems to turn bold visions into reality. We are not an other
-    agency but a true partner to scale your creative ambitions, to build with
-    you, not just for you, to grow not just bigger, but better.
+  title: The creative house of outdoor culture
+  text: A culturally fluent partner where creative strategy meets field expertise and  community connections.
   video:
     background: true
-    webm: /assets/videos/video_desktop.webm
-    webm_mobile: /assets/videos/video_mobile.webm
   ctas:
-    - text: 5 reasons why we are differents
+    - text: Play our reel
       url: /#main
       blank: false
 blocks:
-  - type: paragraph
-    surtitle: "01"
-    title: We don’t make ads we build brands.
-    text: Whether it’s a brand film, a social media activation or a pop up, our
-      creative work breaks conventions and sparks emotion. We treat every
-      touchpoint as a chance to tell your story.
-  - type: paragraph
-    surtitle: "02"
-    title: We dare to break frontiers.
-    text: We believe that brands that dare to be different are the ones that stand
-      out. We don’t follow trends. We go beyond the brief to craft bold,
-      memorable brand experiences.
-  - type: paragraph
-    surtitle: "03"
-    title: We are moving as one.
-    text: "We operate like a control tower, connecting all players: your internal
-      teams, other external agencies, freelancers, production partners... We
-      make sure everyone moves in sync, with a shared vision and clear
-      standards."
-  - type: paragraph
-    surtitle: "04"
-    title: We do more with less.
-    text: From workflows to team structures to production models, we optimize
-      everything. We find smarter ways to do more with less and make sure every
-      cent you invest in creativity pays off.
-  - type: paragraph
-    surtitle: "05"
-    title: We build culturally relevant forces.
-    text: People who align with your brand’s culture, speak its language, and embody
-      its values. Tailored teams that intuitively understand your business and
-      connect authentically with your audience.
-  - type: cta
+  - type: editorial
+    direction: ltr
+    surtitle: Why we exist
+    title: a cultural bridge to connect authentically with the culture
+    text: For those who live the culture and those who aspire to join it, Villagers helps outdoor brands grow with authenticity and guides non-outdoor brands to connect credibly with this expanding cultural movement.
+    image:
+      src: /images/uploads/visual-1.jpg
+  - type: title
     heading:
-      surtitle: Origins
-      title: Born in 2025. Shape over the years
-      text: Villagers founder Johann Bernast brought over 15 years of experience
-        working with top global agencies such as DDB and BETC in Paris, as well
-        as managing in-house brands like Jaeger-LeCoultre in Geneva. Having
-        worked both within brands and alongside them, he became convinced that
-        the traditional agency / brand relationship needed to be reinvented.
-    ctas:
-      - text: Connect on LinkedIn
-        url: https://www.linkedin.com/in/johannbernast/
-        blank: true
-    background: false
+      surtitle: What we do
+      title: an agency Where Brand values Finds Real Voices
+      text: we have a direct access to a network of athletes, explorers, and creators. Individuals who embody the culture through real projects, expeditions, and experiences.
+    video:
+      background: true
+      webm: /assets/videos/villagers_bluemaxmedia_candidethovex_desktop.webm
+      webm_mobile: /assets/videos/villagers_bluemaxmedia_candidethovex_mobile.webm
+  - type: editorial
+    direction: rtl
+    surtitle: How we do
+    title: Fluent accross all levels of the brand ecosystem
+    text: Outdoor culture is a global cultural movement shaping fashion, luxury, mobility, wellness, and lifestyle. But while the movement grows, few creative partners truly understand its codes, its communities, or its credibility.  That’s where we come in.
+    image:
+      src: /images/uploads/visual-2.jpg
+  - type: title
+    heading:
+      surtitle: A collective force
+      title: Supported by an experienced field partner 
+      text: To bring this vision to life, Villagers partnered with BlueMax Media, representing the convergence of creative strategy and field expertise .
+    video:
+      background: true
+      webm: /assets/videos/villagers_jaegerlecoultre_polaris_desktop.webm
+      webm_mobile: /assets/videos/villagers_jaegerlecoultre_polaris_mobile.webm
+  
   - type: form
     heading:
       surtitle: Contact
@@ -88,18 +71,4 @@ blocks:
         required: true
         full: true
         autocomplete: email
-      - label: VideoCall
-        name: subject
-        type: radio
-        value: VideoCall
-        required: false
-        full: false
-      - label: Espresso
-        name: subject
-        type: radio
-        value: Espresso
-        required: false
-        full: false
-    image:
-      src: /images/uploads/background.png
 ---
