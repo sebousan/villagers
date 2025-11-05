@@ -6,11 +6,15 @@ hero:
   text: A culturally fluent partner where creative strategy meets field expertise and  community connections.
   video:
     background: true
+    mp4: /assets/videos/villagers_header_video_desktop.mp4
     webm: /assets/videos/villagers_header_video_desktop.webm
+    mp4_mobile: /assets/videos/villagers_header_video_mobile.mp4
     webm_mobile: /assets/videos/villagers_header_video_mobile.webm
   video_modal:
     text: Play our reel
+    mp4: /assets/videos/villagers_reel_video_desktop.mp4
     webm: /assets/videos/villagers_reel_video_desktop.webm
+    mp4_mobile: /assets/videos/villagers_reel_video_mobile.mp4
     webm_mobile: /assets/videos/villagers_reel_video_mobile.webm
 blocks:
   - type: editorial
@@ -27,7 +31,9 @@ blocks:
       text: we have a direct access to a network of athletes, explorers, and creators. Individuals who embody the culture through real projects, expeditions, and experiences.
     video:
       background: true
+      mp4: /assets/videos/villagers_bluemaxmedia_candidethovex_desktop.mp4
       webm: /assets/videos/villagers_bluemaxmedia_candidethovex_desktop.webm
+      mp4_mobile: /assets/videos/villagers_bluemaxmedia_candidethovex_mobile.mp4
       webm_mobile: /assets/videos/villagers_bluemaxmedia_candidethovex_mobile.webm
   - type: editorial
     direction: rtl
@@ -46,7 +52,9 @@ blocks:
       alt: BlueMax
     video:
       background: true
+      mp4: /assets/videos/villagers_jaegerlecoultre_polaris_desktop.mp4
       webm: /assets/videos/villagers_jaegerlecoultre_polaris_desktop.webm
+      mp4_mobile: /assets/videos/villagers_jaegerlecoultre_polaris_mobile.mp4
       webm_mobile: /assets/videos/villagers_jaegerlecoultre_polaris_mobile.webm
 
   - type: form
