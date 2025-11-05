@@ -13,7 +13,7 @@ carousel: false
 map: false
 parallax:
   enable: true
-  cover: 0
+  cover: -4
   video: 0
   heading: 0
 
@@ -66,6 +66,7 @@ admin:
     enable:
       - editorial
       - form
+      - paragraph
       - title
     editorial:
       - direction
