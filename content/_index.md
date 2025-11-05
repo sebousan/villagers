@@ -6,6 +6,8 @@ hero:
   text: A culturally fluent partner where creative strategy meets field expertise and  community connections.
   video:
     background: true
+    webm: /assets/videos/villagers_header_video_desktop.webm
+    webm_mobile: /assets/videos/villagers_header_video_mobile.webm
   video_modal:
     text: Play our reel
     webm: /assets/videos/villagers_reel_video_desktop.webm

@@ -1,22 +1,24 @@
 .block-form
     .heading
         @include margin-bottom($global-spacing-md)
+        @include media-breakpoint-up(md)
+            text-align: center
     input,
     select,
     textarea
         --bs-border-color: #{$primary}
         --bs-body-bg: transparent
         --bs-body-color: #{$primary}
-    input[type=radio]
-        cursor: pointer
-        height: 2.5rem
-        margin-top: 0
-        width: 2.5rem
-        & + label
-            cursor: pointer
-            margin-bottom: 0
-            margin-top: .5rem
-            padding-left: .5rem
+    // input[type=radio]
+    //     cursor: pointer
+    //     height: 2.5rem
+    //     margin-top: 0
+    //     width: 2.5rem
+    //     & + label
+    //         cursor: pointer
+    //         margin-bottom: 0
+    //         margin-top: .5rem
+    //         padding-left: .5rem
     .help
         color: $gray-600
     .btn

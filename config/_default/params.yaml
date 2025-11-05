@@ -50,8 +50,8 @@ admin:
       files:
         - nav-primary
         - nav-legal
-        - nav-social 
-        - footer 
+        # - nav-social 
+        # - footer 
         - seo
     pages:
       fields:
