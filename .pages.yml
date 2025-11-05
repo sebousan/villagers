@@ -486,6 +486,141 @@ content:
       type: object
     - collapsed: false
       fields:
+      - i18n: true
+        label: Surtitle
+        name: surtitle
+        required: false
+        type: string
+      - i18n: true
+        label: Title
+        name: title
+        required: false
+        type: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Text
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        type: rich-text
+      - collapsed: true
+        description: To link a word in the text to a note, suffix it with "[*]". Notes
+          and "[\\*]" are linked by their order.
+        fields:
+        - i18n: true
+          label: Text
+          name: text
+          required: false
+          type: string
+        i18n: true
+        label: Notes
+        label_singular: Note
+        list: true
+        name: notes
+        required: false
+        type: object
+      - allow_add: true
+        collapsed: true
+        fields:
+        - i18n: true
+          label: Text
+          name: text
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - description: Enter code lang (e.g. fr) if different of the current page
+            language
+          i18n: true
+          label: Language
+          name: lang
+          required: false
+          type: string
+        - i18n: true
+          label: Is blank?
+          name: blank
+          required: false
+          type: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        list: true
+        max: 2
+        min: 0
+        name: ctas
+        required: false
+        summary: '{{fields.text}}'
+        type: object
+      - description: ""
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - description: ""
+        i18n: duplicate
+        label: Offset
+        name: offset
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - description: ""
+        i18n: duplicate
+        label: Alignment
+        name: align
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - default: false
+        i18n: duplicate
+        label: With a background?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Paragraph
+      name: paragraph
+      required: false
+      summary: '{{title}}'
+      type: object
+    - collapsed: false
+      fields:
       - collapsed: true
         fields:
         - i18n: true
