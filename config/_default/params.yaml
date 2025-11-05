@@ -12,9 +12,9 @@ bootstrap:
 carousel: false
 map: false
 parallax:
-  enable: false
-  cover: -2
-  video: -2
+  enable: true
+  cover: 0
+  video: 0
   heading: 0
 
 # Images

@@ -2,9 +2,10 @@
     header[role="banner"]
         display: none
     .hero
-        &-content
-            background: url("/assets/images/logo.svg") no-repeat center top
-            padding-top: 15rem
+        .logo
+            height: auto
+            margin: 0 auto $global-spacing-md
+            width: 144px
         .container
             @include padding-top(7rem)
             min-height: $home-hero-min-height-mobile

@@ -1,4 +1,17 @@
 <div class="hero-content">
+
+  {{- $logo := site.Params.logo.header -}}
+  {{- $file := printf "static%s" $logo -}}
+  {{- $fileDimensions := partial "func/GetImageDimensions" (dict "file" $file) -}}
+  <img 
+    src="{{ $logo }}" 
+    alt="Villagers" 
+    role="presentation" 
+    class="logo js-magnetic"
+    fetchpriority="high"
+    height="{{ index $fileDimensions 1 }}" 
+    width="{{ index $fileDimensions 0 }}">
+
   {{- with .surtitle }}
     <p class="surtitle">{{ partial "func/PrepareHTML.html" . }}</p>
   {{ end -}}
@@ -9,7 +22,7 @@
   {{- with .video_modal }}
     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalVideo">{{ partial "func/PrepareHTML.html" .text }}</button>
 
-    <div class="modal fade" id="modalVideo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-label="Reel" aria-hidden="true">
+    <div class="modal fade" id="modalVideo" data-bs-backdrop="static" tabindex="-1" aria-label="Villagers reel" aria-hidden="true">
       <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
           <div class="modal-header">
