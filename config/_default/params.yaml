@@ -6,7 +6,7 @@ bootstrap:
   carousel: false
   collapse: false
   dropdown: false
-  modal: false
+  modal: true
   offcanvas: false
   tooltip: false
 carousel: false
@@ -80,9 +80,9 @@ admin:
       - name 
       - submit 
       - form_items
-      - image
     title:
       - heading
+      - image
       - video
   
   # Fields
@@ -95,13 +95,19 @@ admin:
       - title
       - text_markdown
       - video
-      - ctas
+      - video_modal
     links:
       - title 
       - url
       - is_blank
     video:
       - is_background
+      - video_mp4
+      - video_webm
+      - video_mp4_mobile
+      - video_webm_mobile
+    video_modal:
+      - text
       - video_mp4
       - video_webm
       - video_mp4_mobile

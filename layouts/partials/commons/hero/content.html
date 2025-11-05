@@ -1,0 +1,29 @@
+<div class="hero-content">
+  {{- with .surtitle }}
+    <p class="surtitle">{{ partial "func/PrepareHTML.html" . }}</p>
+  {{ end -}}
+  {{- with .title }}
+    <h1 {{- if and site.Params.search.enable site.Params.search.sort }} data-pagefind-sort="heading"{{ end }}>{{ partial "func/PrepareHTML.html" . }}</h1>
+  {{ end -}}
+  {{- partial "commons/text.html" (dict "text" .text "class" "description") -}}
+  {{- with .video_modal }}
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalVideo">{{ partial "func/PrepareHTML.html" .text }}</button>
+
+    <div class="modal fade" id="modalVideo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-label="Reel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            {{- if or .mp4 .webm }}
+              {{- $video := . | merge (dict "autoplay" true "loop" true "muted" false "controls" true) -}}
+              {{ partial "commons/video.html" $video }}
+            {{- end }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  {{- end }}
+</div>

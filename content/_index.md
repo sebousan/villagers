@@ -6,10 +6,10 @@ hero:
   text: A culturally fluent partner where creative strategy meets field expertise and  community connections.
   video:
     background: true
-  ctas:
-    - text: Play our reel
-      url: /#main
-      blank: false
+  video_modal:
+    text: Play our reel
+    webm: /assets/videos/villagers_reel_video_desktop.webm
+    webm_mobile: /assets/videos/villagers_reel_video_mobile.webm
 blocks:
   - type: editorial
     direction: ltr
@@ -39,11 +39,14 @@ blocks:
       surtitle: A collective force
       title: Supported by an experienced field partner 
       text: To bring this vision to life, Villagers partnered with BlueMax Media, representing the convergence of creative strategy and field expertise .
+    image:
+      src: /images/uploads/logo-bluemax-white.png
+      alt: BlueMax
     video:
       background: true
       webm: /assets/videos/villagers_jaegerlecoultre_polaris_desktop.webm
       webm_mobile: /assets/videos/villagers_jaegerlecoultre_polaris_mobile.webm
-  
+
   - type: form
     heading:
       surtitle: Contact

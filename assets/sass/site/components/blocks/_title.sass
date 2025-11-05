@@ -1,6 +1,7 @@
 .block-title
     background-color: $dark
     color: $secondary
+    overflow: hidden
     position: relative
     @include media-breakpoint-up(md)
         aspect-ratio: $ratio
@@ -20,3 +21,8 @@
         object-fit: cover
         position: absolute
         width: 100%
+    .heading
+        img
+            @include margin-top($spacer)
+            height: 50px
+            width: auto
