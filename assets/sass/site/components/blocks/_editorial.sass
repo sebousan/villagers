@@ -40,12 +40,18 @@
     .surtitle
         color: $tertiary
     .media
-        margin: 0
+        margin: 0 !important
         padding: 0
-        width: auto
+        width: 100%
+        @include media-breakpoint-up(md)
+            width: auto
     figure,
     picture,
     img
         height: 100%
         object-fit: cover
         width: 100%
+
+    figure
+        @include media-breakpoint-down(md)
+            transform: none !important
