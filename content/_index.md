@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Villagers - The creative house OF OUTDOOR culture
+title: Villagers - The Creative House of Outdoor Culture
 hero:
   title: Villagers - The creative house OF OUTDOOR culture
   video:
