@@ -13,6 +13,10 @@ hero:
     webm_mobile: /assets/videos/villagers_header_video_mobile.webm
   video_modal:
     text: Play our reel
+    mp4: /assets/videos/villagers_reel_video_desktop.mp4
+    webm: /assets/videos/villagers_reel_video_desktop.webm
+    mp4_mobile: /assets/videos/villagers_reel_video_mobile.mp4
+    webm_mobile: /assets/videos/villagers_reel_video_mobile.webm
 blocks:
   - type: editorial
     direction: ltr
