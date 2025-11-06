@@ -1,8 +1,8 @@
 ---
 draft: false
-title: Home
+title: Villagers - The Creative House of Outdoor Culture
 hero:
-  title: The creative house of outdoor culture
+  title: The Creative House of Outdoor Culture
   text: A culturally fluent partner where creative strategy meets field expertise
     and community connections.
   video:
@@ -30,10 +30,10 @@ blocks:
         and experiences.
     video:
       background: true
-      mp4: /assets/videos/villagers_bluemaxmedia_candidethovex_desktop.mp4
-      webm: /assets/videos/villagers_bluemaxmedia_candidethovex_desktop.webm
-      mp4_mobile: /assets/videos/villagers_bluemaxmedia_candidethovex_mobile.mp4
-      webm_mobile: /assets/videos/villagers_bluemaxmedia_candidethovex_mobile.webm
+      mp4: /assets/videos/villagers_iwcfaction_desktop.mp4
+      webm: /assets/videos/villagers_iwcfaction_desktop.webm
+      mp4_mobile: /assets/videos/villagers_iwcfaction_mobile.mp4
+      webm_mobile: /assets/videos/villagers_iwcfaction_mobile.webm
   - type: editorial
     direction: rtl
     surtitle: How we do
