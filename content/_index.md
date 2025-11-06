@@ -55,10 +55,10 @@ blocks:
       alt: BlueMax
     video:
       background: true
-      mp4: /assets/videos/villagers_jaegerlecoultre_polaris_desktop.mp4
-      webm: /assets/videos/villagers_jaegerlecoultre_polaris_desktop.webm
-      mp4_mobile: /assets/videos/villagers_jaegerlecoultre_polaris_mobile.mp4
-      webm_mobile: /assets/videos/villagers_jaegerlecoultre_polaris_mobile.webm
+      mp4: /assets/videos/villagers_bluemaxmedia_candidethovex_desktop.mp4
+      webm: /assets/videos/villagers_bluemaxmedia_candidethovex_desktop.webm
+      mp4_mobile: /assets/videos/villagers_bluemaxmedia_candidethovex_mobile.mp4
+      webm_mobile: /assets/videos/villagers_bluemaxmedia_candidethovex_mobile.webm
   - type: form
     heading:
       surtitle: Contact
