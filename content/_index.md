@@ -24,10 +24,10 @@ blocks:
   - type: title
     heading:
       surtitle: What we do
-      title: an agency Where Brand values Finds Real Voices
-      text: we have a direct access to a network of athletes, explorers, and creators.
-        Individuals who embody the culture through real projects, expeditions,
-        and experiences.
+      title: We create campaigns and experiences that feel lived, not staged
+      text: We work closely with a network of athletes, explorers, and creators.
+        People who truly live this culture through their projects, expeditions,
+        and everyday adventures.
     video:
       background: true
       mp4: /assets/videos/villagers_iwcfaction_desktop.mp4
