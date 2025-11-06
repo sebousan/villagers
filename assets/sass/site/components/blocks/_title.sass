@@ -1,0 +1,33 @@
+.block-title
+    background-color: $dark
+    color: $secondary
+    overflow: hidden
+    position: relative
+    @include media-breakpoint-up(md)
+        text-align: center
+    @include media-breakpoint-up(lg)
+        aspect-ratio: $ratio
+        max-height: 100vh
+        width: 100%
+    .heading,
+    .container
+        height: 100%
+        position: relative
+    .container
+        @include padding-left($global-spacing)
+        @include padding-right($global-spacing)
+        justify-content: center
+        @include media-breakpoint-down(md)
+            padding-left: $gutter-mobile
+            padding-right: $gutter-mobile
+    video
+        height: 100%
+        inset: 0
+        object-fit: cover
+        position: absolute
+        width: 100%
+    .heading
+        img
+            @include margin-top($spacer)
+            height: 50px
+            width: auto

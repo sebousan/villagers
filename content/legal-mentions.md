@@ -39,7 +39,7 @@ blocks:
 
       **Fonts**
 
-      *   Landour
+      *   Humane
           
-      *   Morganite Pro
+      *   PP Monument Extended
 ---

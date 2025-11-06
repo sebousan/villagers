@@ -1,29 +1,35 @@
 _merge: deep
 
-logo:
-  footer: /assets/images/logo-fingerprint.svg
-
 # Javascripts
 animation: false
 bootstrap:
   carousel: false
   collapse: false
   dropdown: false
-  modal: false
+  modal: true
   offcanvas: false
   tooltip: false
 carousel: false
 map: false
 parallax:
   enable: false
-  cover: -2
-  video: -2
+  cover: -4
+  video: 0
   heading: 0
 
 # Images
+logo:
+  footer: /assets/images/logo-footer.svg
+image:
+  retina:
+    desktop: true
 hero:
   cover: 1600x800
   cover_mobile: 360x700
+blocks:
+  editorial:
+    desktop: 720x1054
+    mobile: 375x469
 
 # Admin
 admin:
@@ -46,8 +52,8 @@ admin:
       files:
         - nav-primary
         - nav-legal
-        - nav-social 
-        - footer 
+        # - nav-social 
+        # - footer 
         - seo
     pages:
       fields:
@@ -60,9 +66,16 @@ admin:
   # Blocks
   blocks:
     enable:
-      - cta
+      - editorial
       - form
       - paragraph
+      - title
+    editorial:
+      - direction
+      - surtitle
+      - title
+      - text_markdown
+      - image
     form:
       - heading
       - grid 
@@ -70,11 +83,10 @@ admin:
       - name 
       - submit 
       - form_items
+    title:
+      - heading
       - image
-    paragraph:
-      - surtitle
-      - title
-      - text_markdown
+      - video
   
   # Fields
   fields:
@@ -86,13 +98,19 @@ admin:
       - title
       - text_markdown
       - video
-      - ctas
+      - video_modal
     links:
       - title 
       - url
       - is_blank
     video:
       - is_background
+      - video_mp4
+      - video_webm
+      - video_mp4_mobile
+      - video_webm_mobile
+    video_modal:
+      - text
       - video_mp4
       - video_webm
       - video_mp4_mobile
