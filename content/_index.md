@@ -42,8 +42,6 @@ blocks:
       mobility, wellness, and lifestyle. But while the movement grows, few
       creative partners truly understand its codes, its communities, or its
       credibility. That’s where we come in.
-    image:
-      src: /images/uploads/villagers_peugeot_wrx.jpg
   - type: title
     heading:
       surtitle: A collective force
