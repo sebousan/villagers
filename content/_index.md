@@ -1,6 +1,8 @@
 ---
 draft: false
-title: Villagers - The Creative House of Outdoor Culture
+title: Home
+seo:
+  title: Villagers - The Creative House of Outdoor Culture
 hero:
   title: The Creative House of Outdoor Culture
   text: A culturally fluent partner where creative strategy meets field expertise
