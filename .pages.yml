@@ -204,6 +204,58 @@ content:
       name: video
       required: false
       type: object
+    - collapsed: true
+      fields:
+      - i18n: true
+        label: Text
+        name: text
+        required: false
+        type: string
+      - description: Video (MP4)
+        i18n: duplicate
+        label: MP4
+        name: mp4
+        options:
+          extensions:
+          - mp4
+          media: videos
+        required: false
+        type: file
+      - description: Video (WEBM)
+        i18n: duplicate
+        label: WEBM
+        name: webm
+        options:
+          extensions:
+          - webm
+          media: videos
+        required: false
+        type: file
+      - description: Video (MP4)
+        i18n: duplicate
+        label: Mobile MP4
+        name: mp4_mobile
+        options:
+          extensions:
+          - mp4
+          media: videos
+        required: false
+        type: file
+      - description: Video (WEBM)
+        i18n: duplicate
+        label: Mobile WEBM
+        name: webm_mobile
+        options:
+          extensions:
+          - webm
+          media: videos
+        required: false
+        type: file
+      i18n: true
+      label: Modal video
+      name: video_modal
+      required: false
+      type: object
     i18n: true
     label: Hero
     name: hero
@@ -760,3 +812,4 @@ content:
   name: pages
   path: content
   type: collection
+
