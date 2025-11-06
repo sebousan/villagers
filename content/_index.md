@@ -44,10 +44,10 @@ blocks:
     direction: rtl
     surtitle: How we do
     title: Fluent accross all levels of the brand ecosystem
-    text: Outdoor culture is a global cultural movement shaping fashion, luxury,
-      mobility, wellness, and lifestyle. But while the movement grows, few
-      creative partners truly understand its codes, its communities, or its
-      credibility. That’s where we come in.
+    text: From digital to retail, from brand strategy to on-field production, from
+      campaign films to VIC experiences, we infuse outdoor culture at every
+      level. Designing ideas through a truly 360° vision where culture, emotion,
+      and brand move as one.
     image:
       src: /images/uploads/villagers_peugeot_wrx-1.jpg
   - type: title
