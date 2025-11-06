@@ -12,12 +12,14 @@ bootstrap:
 carousel: false
 map: false
 parallax:
-  enable: true
+  enable: false
   cover: -4
   video: 0
   heading: 0
 
 # Images
+logo:
+  footer: /assets/images/logo-footer.svg
 image:
   retina:
     desktop: true
