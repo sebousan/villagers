@@ -10,8 +10,14 @@ footer[role="contentinfo"]
         justify-content: center
         text-align: center
     
+    .logo
+        @include margin-bottom($global-spacing-md)
     .bottom
-        @include padding-top($global-spacing-md)
+        @include margin-top($spacer)
+        padding-top: 0
+
+    .nav-link 
+        --bs-nav-link-font-size: .625rem
 
     .description,
     .hugolify
