@@ -79,6 +79,45 @@ content:
     name: title
     required: false
     type: string
+  - i18n: true
+    label: Text
+    name: text
+    required: false
+    type: text
+  - collapsed: true
+    fields:
+    - i18n: true
+      label: Text
+      name: text
+      required: false
+      type: string
+    - i18n: true
+      label: URL
+      name: url
+      required: false
+      type: string
+    - i18n: true
+      label: Is blank?
+      name: blank
+      required: false
+      type: boolean
+    i18n: true
+    label: CTA
+    name: cta
+    required: false
+    summary: '{{text}}'
+    type: object
+  i18n: true
+  label: Information text at the bottom of the site
+  name: footer
+  path: data/footer.yml
+  type: file
+- fields:
+  - i18n: true
+    label: Title
+    name: title
+    required: false
+    type: string
   - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
       preview
     i18n: true

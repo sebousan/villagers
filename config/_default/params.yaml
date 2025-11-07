@@ -53,7 +53,7 @@ admin:
         - nav-primary
         - nav-legal
         # - nav-social 
-        # - footer 
+        - footer 
         - seo
     pages:
       fields:
