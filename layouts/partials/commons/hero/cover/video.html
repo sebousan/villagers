@@ -2,7 +2,7 @@
   {{- if or .mp4 .webm }}
     {{- $parallax := partial "func/SetParallax.html" (dict "element" "cover") -}}
     <div class="hero-cover" {{ $parallax }}>
-      {{- $video := . | merge (dict "autoplay" true "loop" true) -}}
+      {{- $video := . | merge (dict "autoplay" true "loop" true "muted" false) -}}
       {{ partial "commons/video.html" $video }}
     </div>
   {{- end }}
