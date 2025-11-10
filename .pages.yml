@@ -40,35 +40,6 @@ content:
     required: false
     type: object
   i18n: true
-  label: Primary navigation
-  name: primary
-  path: data/menu/primary.yml
-  type: file
-- fields:
-  - fields:
-    - i18n: true
-      label: Title
-      name: title
-      required: false
-      type: string
-    - i18n: true
-      label: URL
-      name: url
-      required: false
-      type: string
-    - i18n: true
-      label: Is blank?
-      name: blank
-      required: false
-      type: boolean
-    i18n: true
-    label: Links
-    label_singular: Link
-    list: true
-    name: links
-    required: false
-    type: object
-  i18n: true
   label: Legals navigation (mentions, policy…)
   name: legal
   path: data/menu/legal.yml

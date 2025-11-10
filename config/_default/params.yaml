@@ -50,7 +50,7 @@ admin:
       enable: false
     config:
       files:
-        - nav-primary
+        # - nav-primary
         - nav-legal
         # - nav-social 
         - footer 
