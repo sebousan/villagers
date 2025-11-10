@@ -16,6 +16,7 @@
     .container
         @include padding-left($global-spacing)
         @include padding-right($global-spacing)
+        flex-wrap: nowrap
         justify-content: center
         @include media-breakpoint-down(md)
             padding-left: $gutter-mobile
@@ -26,8 +27,12 @@
         object-fit: cover
         position: absolute
         width: 100%
+    
     .heading
+        @include media-breakpoint-only(lg)
+            max-width: 100%
         img
             @include margin-top($spacer)
-            height: 50px
-            width: auto
+            @include media-breakpoint-down(md)
+                height: auto
+                width: 140px

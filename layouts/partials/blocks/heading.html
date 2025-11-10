@@ -19,6 +19,8 @@
         {{ partial "commons/image.html" (dict
             "src" .src
             "alt" .alt
+            "mobile" "140x"
+            "desktop" "180x"
         ) }}
       {{- end }}
       {{- with $container }}</div>{{ end }}

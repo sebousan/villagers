@@ -57,7 +57,7 @@ blocks:
       text: To bring this vision to life, Villagers partnered with BlueMax Media,
         representing the convergence of creative strategy and field expertise .
     image:
-      src: /images/uploads/BLUEMAX_LOGO.png
+      src: /images/uploads/logo-bluemax-white.png
       alt: BlueMax
     video:
       background: true
