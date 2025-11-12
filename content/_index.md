@@ -30,7 +30,7 @@ blocks:
   - type: title
     heading:
       surtitle: What we do
-      title: Campaigns and experiences that feel lived, not staged
+      title: STORIES THAT FEEL LIVED, NOT SCRIPTED
       text: We work closely with a network of athletes, explorers, and creators.
         People who truly live this culture through their projects, expeditions,
         and everyday adventures.
