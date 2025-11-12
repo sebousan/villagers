@@ -74,6 +74,8 @@ blocks:
       for major names such as Jaeger-LeCoultre, Peugeot, McDonald’s, and
       Volkswagen — bringing a 360° vision that bridges strategy, creativity, and
       real-world execution.
+    image:
+      src: /images/uploads/VILLAGERS_JohannBernast.jpg
   - type: form
     heading:
       surtitle: Contact
