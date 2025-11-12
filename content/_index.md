@@ -72,9 +72,9 @@ blocks:
     text: Johann Bernast, Founder of Villagers, brings over 15 years of experience
       across global agencies such as DDB and BETC, and brands like Peugeot and
       Jaeger-LeCoultre. His dual background provides a 360° understanding of
-      creativity, strategic and operational, bold yet grounded. An outdoor
-      enthusiast, he’s also an ultra-trail, Ironman finisher and an avid
-      cyclist.
+      creativity, strategic and operational, bold yet grounded. Uultra-trail and
+      Ironman finisher and an avid cyclist he channels the same endurance,
+      discipline, and passion from the outdoors into building brands.
     image:
       src: /images/uploads/VILLAGERS_JohannBernast_04.jpg
   - type: form
