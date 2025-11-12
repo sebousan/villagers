@@ -76,7 +76,7 @@ blocks:
       enthusiast, he’s also an ultra-trail and Ironman finisher, and an avid
       cyclist.
     image:
-      src: /images/uploads/VILLAGERS_JohannBernast_03.jpg
+      src: /images/uploads/VILLAGERS_JohannBernast_04.jpg
   - type: form
     heading:
       surtitle: Contact
