@@ -68,12 +68,12 @@ blocks:
   - type: editorial
     direction: ltr
     surtitle: WHO WE ARE
-    title: FOUNDED IN 2025 FORGED OVER THE YEAR
+    title: FOUNDED IN 2025. FORGED OVER THE YEAR
     text: Johann Bernast, Founder of Villagers, brings over 15 years of experience
       across global agencies such as DDB and BETC, and brands like Peugeot and
       Jaeger-LeCoultre. His dual background provides a 360° understanding of
       creativity, strategic and operational, bold yet grounded. An outdoor
-      enthusiast, he’s also an ultra-trail and Ironman finisher, and an avid
+      enthusiast, he’s also an ultra-trail, Ironman finisher and an avid
       cyclist.
     image:
       src: /images/uploads/VILLAGERS_JohannBernast_04.jpg
