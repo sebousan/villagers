@@ -69,11 +69,12 @@ blocks:
     direction: ltr
     surtitle: WHO WE ARE
     title: FOUNDED IN 2025 FORGED OVER THE YEAR
-    text: With over 15 years of experience across global agencies and luxury
-      maisons, Johann Bernast has led creative strategy and brand storytelling
-      for major names such as Jaeger-LeCoultre, Peugeot, McDonald’s, and
-      Volkswagen — bringing a 360° vision that bridges strategy, creativity, and
-      real-world execution.
+    text: Johann Bernast, Founder of Villagers, brings over 15 years of experience
+      across global agencies such as DDB and BETC, and brands like Peugeot and
+      Jaeger-LeCoultre. His dual background provides a 360° understanding of
+      creativity, strategic and operational, bold yet grounded. An outdoor
+      enthusiast, he’s also an ultra-trail and Ironman finisher, and an avid
+      cyclist.
     image:
       src: /images/uploads/VILLAGERS_JohannBernast_02.jpg
   - type: form
