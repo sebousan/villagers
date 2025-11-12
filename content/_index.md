@@ -65,6 +65,17 @@ blocks:
       webm: /assets/videos/villagers_bluemaxmedia_candidethovex_desktop.webm
       mp4_mobile: /assets/videos/villagers_bluemaxmedia_candidethovex_mobile.mp4
       webm_mobile: /assets/videos/villagers_bluemaxmedia_candidethovex_mobile.webm
+  - type: editorial
+    direction: ltr
+    surtitle: WHO WE ARE
+    title: FOUNDED IN 2025 FORGED OVER THE YEAR
+    text: With over 15 years of experience across global agencies and luxury
+      maisons, Johann Bernast has led creative strategy and brand storytelling
+      for major names such as Jaeger-LeCoultre, Peugeot, McDonald’s, and
+      Volkswagen — bringing a 360° vision that bridges strategy, creativity, and
+      real-world execution.
+    image:
+      src: /images/uploads/VILLAGERS_JohannBernast.jpg
   - type: form
     heading:
       surtitle: Contact
