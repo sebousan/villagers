@@ -75,7 +75,7 @@ blocks:
       Volkswagen — bringing a 360° vision that bridges strategy, creativity, and
       real-world execution.
     image:
-      src: /images/uploads/VILLAGERS_JohannBernast.jpg
+      src: /images/uploads/VILLAGERS_JohannBernast_02.jpg
   - type: form
     heading:
       surtitle: Contact
