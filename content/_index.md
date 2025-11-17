@@ -54,7 +54,7 @@ blocks:
     heading:
       surtitle: A collective force
       title: Supported by an experienced field partner
-      text: To bring this vision to life, Villagers partnered with BlueMax Media,
+      text: To bring this vision to life, Villagers fused with BlueMax Media,
         representing the convergence of creative strategy and field expertise .
     image:
       src: /images/uploads/logo-bluemax-white.png
