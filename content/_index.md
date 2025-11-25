@@ -107,6 +107,12 @@ blocks:
       - label: message
         name: Write your message
         type: select
+        options:
+          - title: Learn more about us
+            value: More
+          - title: Hire me !
+            value: Hire
+          - title: We have a Brief
         required: true
         full: true
 ---
