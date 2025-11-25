@@ -104,8 +104,8 @@ blocks:
         required: true
         full: true
         autocomplete: email
-      - label: message
-        name: Write your message
+      - label: Select your message
+        name: Select your message
         type: select
         options:
           - title: Learn more about us
