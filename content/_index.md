@@ -106,7 +106,7 @@ blocks:
         autocomplete: email
       - label: message
         name: Write your message
-        type: text
+        type: select
         required: true
         full: true
 ---
