@@ -107,6 +107,6 @@ blocks:
       - label: message
         name: Write your message
         type: text
-        required: false
-        full: false
+        required: true
+        full: true
 ---
