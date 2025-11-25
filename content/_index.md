@@ -105,15 +105,8 @@ blocks:
         full: true
         autocomplete: email
       - label: message
-        name: What is your Message
-        type: select
-        options:
-          - title: We have a Brief
-            value: Brief
-          - title: Learn more about us
-            value: chat
-          - title: Hire me !
-            value: Hire
+        name: Write your message
+        type: text
         required: false
         full: false
 ---
