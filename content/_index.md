@@ -113,6 +113,7 @@ blocks:
           - title: Hire me !
             value: Hire
           - title: We have a Brief
+            value: Brief
         required: true
         full: true
 ---
