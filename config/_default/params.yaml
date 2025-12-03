@@ -43,6 +43,7 @@ admin:
   media:
     audio_folders: false
     pdf_folders: false
+    video_folders: true
 
   # Collections
   collections:
@@ -71,47 +72,55 @@ admin:
       - paragraph
       - title
     editorial:
-      - direction
-      - surtitle
-      - title
-      - text_markdown
-      - image
+      fields:
+        - direction
+        - surtitle
+        - title
+        - text_markdown
+        - image
     form:
-      - heading
-      - grid 
-      - offset
-      - name 
-      - submit 
-      - form_items
+      fields:
+        - heading
+        - grid 
+        - offset
+        - name 
+        - submit 
+        - form_items
     title:
-      - heading
-      - image
-      - video
+      fields:
+        - heading
+        - image
+        - video
   
   # Fields
   fields:
     cta:
-      - text
-      - url
-      - is_blank
+      fields:
+        - text
+        - url
+        - is_blank
     hero:
-      - title
-      - text_markdown
-      - video
-      - video_modal
+      fields:
+        - title
+        - text_markdown
+        - video
+        - video_modal
     links:
-      - title 
-      - url
-      - is_blank
+      fields:
+        - title 
+        - url
+        - is_blank
     video:
-      - is_background
-      - video_mp4
-      - video_webm
-      - video_mp4_mobile
-      - video_webm_mobile
+      fields:
+        - is_background
+        - video_mp4
+        - video_webm
+        - video_mp4_mobile
+        - video_webm_mobile
     video_modal:
-      - text
-      - video_mp4
-      - video_webm
-      - video_mp4_mobile
-      - video_webm_mobile
+      fields:
+        - text
+        - video_mp4
+        - video_webm
+        - video_mp4_mobile
+        - video_webm_mobile

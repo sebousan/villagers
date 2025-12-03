@@ -1,12 +1,12 @@
 {{- $fields := slice 
-  "text"  -}}
-{{- $fields = partial "admin/func/get_fields.html" (dict "field" . "fields" $fields) -}}
-{
-  label: 'Modal video',
-  name: 'video_modal',
-  widget: 'object',
-  required: false,
-  i18n: true,
-  collapsed: true,
-  {{ partial "admin/fields/_fields.yml" $fields }}
-}
+  "text" -}}
+{{- $fields = partial "admin/func/GetFields.html" (dict "field" . "fields" $fields) -}}
+
+{{- $args := dict 
+  "label" "Modal video"
+  "name" "video_modal"
+  "collapsed" true
+  "fields" $fields
+  -}}
+
+{{ partial "admin/widgets/object.js" $args }}

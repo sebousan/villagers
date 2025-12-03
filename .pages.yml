@@ -14,27 +14,23 @@ media:
     categories: [ video ]
   
 
+
 content:
 - fields:
   - fields:
-    - i18n: true
-      label: Title
+    - label: Title
       name: title
       required: false
       type: string
-    - i18n: true
-      label: URL
+    - label: URL
       name: url
       required: false
       type: string
-    - i18n: true
-      label: Is blank?
+    - label: Is blank?
       name: blank
       required: false
       type: boolean
-    i18n: true
     label: Links
-    label_singular: Link
     list: true
     name: links
     required: false
@@ -45,38 +41,30 @@ content:
   path: data/menu/legal.yml
   type: file
 - fields:
-  - i18n: true
-    label: Title
+  - label: Title
     name: title
     required: false
     type: string
-  - i18n: true
-    label: Text
+  - label: Text
     name: text
     required: false
     type: text
-  - collapsed: true
-    fields:
-    - i18n: true
-      label: Text
+  - fields:
+    - label: Text
       name: text
       required: false
       type: string
-    - i18n: true
-      label: URL
+    - label: URL
       name: url
       required: false
       type: string
-    - i18n: true
-      label: Is blank?
+    - label: Is blank?
       name: blank
       required: false
       type: boolean
-    i18n: true
     label: CTA
     name: cta
     required: false
-    summary: '{{text}}'
     type: object
   i18n: true
   label: Information text at the bottom of the site
@@ -84,20 +72,16 @@ content:
   path: data/footer.yml
   type: file
 - fields:
-  - i18n: true
-    label: Title
+  - label: Title
     name: title
     required: false
     type: string
-  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
-      preview
-    i18n: true
+  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
     label: Description
     name: description
     required: false
     type: text
   - description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
-    i18n: true
     label: Image
     name: src
     options:
@@ -105,7 +89,6 @@ content:
     required: false
     type: image
   - description: Username
-    i18n: duplicate
     label: Twitter/X
     name: twitter
     required: false
@@ -115,62 +98,41 @@ content:
   name: seo
   path: data/seo.yml
   type: file
-- create: true
-  description: All pages
-  editor:
-    preview: false
+- description: All pages
   fields:
   - default: true
-    i18n: true
     label: Draft
     name: draft
     required: false
     type: boolean
-  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
-      preview
-    i18n: true
+  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
     label: Page title
     name: title
     required: true
     type: string
-  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
-      preview
-    i18n: true
+  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
     label: Description
     name: description
     required: false
     type: text
-  - collapsed: true
-    fields:
-    - i18n: true
-      label: Title
+  - fields:
+    - label: Title
       name: title
       required: false
       type: string
-    - buttons:
-      - bold
-      - italic
-      - link
-      - bulleted-list
-      editor_components: []
-      i18n: true
-      label: Text
-      minimal: true
-      modes:
-      - rich_text
+    - label: Text
       name: text
+      options:
+        media: false
       required: false
       type: rich-text
-    - collapsed: true
-      fields:
+    - fields:
       - default: false
-        i18n: duplicate
-        label: Background?
+        label: Is background?
         name: background
         required: false
         type: boolean
-      - description: Video (MP4)
-        i18n: duplicate
+      - description: MP4 video file
         label: MP4
         name: mp4
         options:
@@ -179,8 +141,7 @@ content:
           media: videos
         required: false
         type: file
-      - description: Video (WEBM)
-        i18n: duplicate
+      - description: WEBM video file
         label: WEBM
         name: webm
         options:
@@ -189,9 +150,8 @@ content:
           media: videos
         required: false
         type: file
-      - description: Video (MP4)
-        i18n: duplicate
-        label: Mobile MP4
+      - description: MP4 video file for mobile
+        label: MP4 (Mobile)
         name: mp4_mobile
         options:
           extensions:
@@ -199,9 +159,8 @@ content:
           media: videos
         required: false
         type: file
-      - description: Video (WEBM)
-        i18n: duplicate
-        label: Mobile WEBM
+      - description: WEBM video file for mobile
+        label: WEBM (Mobile)
         name: webm_mobile
         options:
           extensions:
@@ -209,20 +168,16 @@ content:
           media: videos
         required: false
         type: file
-      i18n: true
       label: Video
       name: video
       required: false
       type: object
-    - collapsed: true
-      fields:
-      - i18n: true
-        label: Text
+    - fields:
+      - label: Text
         name: text
         required: false
         type: string
-      - description: Video (MP4)
-        i18n: duplicate
+      - description: MP4 video file
         label: MP4
         name: mp4
         options:
@@ -231,8 +186,7 @@ content:
           media: videos
         required: false
         type: file
-      - description: Video (WEBM)
-        i18n: duplicate
+      - description: WEBM video file
         label: WEBM
         name: webm
         options:
@@ -241,9 +195,8 @@ content:
           media: videos
         required: false
         type: file
-      - description: Video (MP4)
-        i18n: duplicate
-        label: Mobile MP4
+      - description: MP4 video file for mobile
+        label: MP4 (Mobile)
         name: mp4_mobile
         options:
           extensions:
@@ -251,9 +204,8 @@ content:
           media: videos
         required: false
         type: file
-      - description: Video (WEBM)
-        i18n: duplicate
-        label: Mobile WEBM
+      - description: WEBM video file for mobile
+        label: WEBM (Mobile)
         name: webm_mobile
         options:
           extensions:
@@ -261,131 +213,89 @@ content:
           media: videos
         required: false
         type: file
-      i18n: true
       label: Modal video
       name: video_modal
       required: false
       type: object
-    i18n: true
     label: Hero
     name: hero
     required: false
     type: object
   - blockKey: type
     blocks:
-    - collapsed: false
-      fields:
-      - description: ""
-        i18n: duplicate
-        label: Direction
+    - fields:
+      - label: Direction
         name: direction
         options:
           values:
-          - label: Text on the left / image on the right
+          - label: Ltr
             value: ltr
-          - label: Image on the left / text on the right
+          - label: Rtl
             value: rtl
         required: false
         type: select
-      - i18n: true
-        label: Surtitle
+      - label: Surtitle
         name: surtitle
         required: false
         type: string
-      - i18n: true
-        label: Title
+      - label: Title
         name: title
         required: false
         type: string
-      - buttons:
-        - bold
-        - italic
-        - link
-        - bulleted-list
-        editor_components: []
-        i18n: true
-        label: Text
-        minimal: true
-        modes:
-        - rich_text
+      - label: Text
         name: text
+        options:
+          media: false
         required: false
         type: rich-text
-      - collapsed: true
-        fields:
+      - fields:
         - description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
-          i18n: true
           label: Image
           name: src
           options:
             media: images
           required: false
           type: image
-        - description: For an image that conveys information (leave blank if decorative
-            image)
-          i18n: true
+        - description: For an image that conveys information (leave blank if decorative image)
           label: Text alternative
           name: alt
           required: false
           type: string
-        - buttons:
-          - link
-          editor_components: []
-          i18n: true
-          label: Credit
-          minimal: true
-          modes:
-          - rich_text
+        - label: Credit
           name: credit
+          options:
+            media: false
           required: false
           type: rich-text
-        i18n: true
-        label: Image
+        label: Images
         name: image
         required: false
         type: object
-      i18n: true
       label: Editorial
       name: editorial
       required: false
-      summary: '{{title}}'
       type: object
-    - collapsed: false
-      fields:
-      - collapsed: true
-        fields:
-        - i18n: true
-          label: Surtitle
+    - fields:
+      - fields:
+        - label: Surtitle
           name: surtitle
           required: false
           type: string
-        - i18n: true
-          label: Title
+        - label: Title
           name: title
           required: false
           type: string
-        - buttons:
-          - bold
-          - italic
-          - link
-          - bulleted-list
-          editor_components: []
-          i18n: true
-          label: Text
-          minimal: true
-          modes:
-          - rich_text
+        - label: Text
           name: text
+          options:
+            media: false
           required: false
           type: rich-text
-        i18n: true
         label: Heading
         name: heading
         required: false
-        summary: '{{title}}'
         type: object
-      - description: ""
-        i18n: duplicate
+      - default: large
         label: Grid
         name: grid
         options:
@@ -402,9 +312,7 @@ content:
             value: full
         required: true
         type: select
-      - description: ""
-        i18n: duplicate
-        label: Offset
+      - label: Offset
         name: offset
         options:
           values:
@@ -416,30 +324,24 @@ content:
             value: end
         required: false
         type: select
-      - i18n: true
-        label: Name
+      - label: Name
         name: name
         required: false
         type: string
-      - i18n: true
-        label: Send button text
+      - label: Send button text
         name: submit
         required: false
         type: string
-      - collapsed: true
-        fields:
-        - i18n: true
-          label: Label
+      - fields:
+        - label: Label
           name: label
           required: false
           type: string
-        - i18n: true
-          label: Name
+        - label: Name
           name: name
           required: false
           type: string
-        - description: Choose type field
-          i18n: duplicate
+        - default: text
           label: Type
           name: type
           options:
@@ -458,51 +360,41 @@ content:
               value: text
             - label: Textarea
               value: textarea
-          required: false
+          required: true
           type: select
         - description: Only for select fields
           fields:
-          - i18n: true
-            label: Title
+          - label: Title
             name: title
             required: false
             type: string
-          - i18n: true
-            label: Value
+          - label: Value
             name: value
             required: false
             type: string
-          i18n: true
           label: Options
-          label_singular: Option
           list: true
-          name: options
+          name: items
           required: false
           type: object
         - description: Only for checkbox and radio fields
-          i18n: true
           label: Value
           name: value
           required: false
           type: string
-        - i18n: duplicate
-          label: Required
+        - label: Required
           name: required
           required: false
           type: boolean
-        - i18n: duplicate
-          label: Full width field?
+        - label: Full width field?
           name: full
           required: false
           type: boolean
-        - i18n: true
-          label: Placeholder
+        - label: Placeholder
           name: placeholder
           required: false
           type: string
-        - description: ""
-          i18n: duplicate
-          label: Autocomplete
+        - label: Autocomplete
           name: autocomplete
           options:
             values:
@@ -532,99 +424,66 @@ content:
               value: organization
           required: false
           type: select
-        i18n: true
         label: Fields
-        label_singular: Field
         list: true
         name: items
         required: false
-        summary: '{{label}}'
         type: object
-      i18n: true
       label: Form
       name: form
       required: false
-      summary: '{{heading.title}}'
       type: object
-    - collapsed: false
-      fields:
-      - i18n: true
-        label: Surtitle
+    - fields:
+      - label: Surtitle
         name: surtitle
         required: false
         type: string
-      - i18n: true
-        label: Title
+      - label: Title
         name: title
         required: false
         type: string
-      - buttons:
-        - bold
-        - italic
-        - link
-        - bulleted-list
-        editor_components: []
-        i18n: true
-        label: Text
-        minimal: true
-        modes:
-        - rich_text
+      - label: Text
         name: text
+        options:
+          media: false
         required: false
         type: rich-text
-      - collapsed: true
-        description: To link a word in the text to a note, suffix it with "[*]". Notes
-          and "[\\*]" are linked by their order.
+      - description: 'To link a word in the text to a note, suffix it with "[\*]". Notes and "[\*]" are linked by their order.'
         fields:
-        - i18n: true
-          label: Text
+        - label: Text
           name: text
           required: false
           type: string
-        i18n: true
         label: Notes
-        label_singular: Note
         list: true
         name: notes
         required: false
         type: object
-      - allow_add: true
-        collapsed: true
-        fields:
-        - i18n: true
-          label: Text
+      - fields:
+        - label: Text
           name: text
           required: false
           type: string
-        - i18n: true
-          label: URL
+        - label: URL
           name: url
           required: false
           type: string
-        - description: Enter code lang (e.g. fr) if different of the current page
-            language
-          i18n: true
+        - description: Enter code lang (e.g. fr) if different of the current page language
           label: Language
           name: lang
           required: false
           type: string
-        - i18n: true
-          label: Is blank?
+        - label: Is blank?
           name: blank
           required: false
           type: boolean
-        i18n: true
         label: CTAs
-        label_singular: CTA
-        list: true
-        max: 2
-        min: 0
+        list:
+          max: 2
         name: ctas
         required: false
-        summary: '{{fields.text}}'
         type: object
-      - description: ""
-        i18n: duplicate
+      - default: large
         label: Grid
         name: grid
         options:
@@ -641,9 +500,7 @@ content:
             value: full
         required: true
         type: select
-      - description: ""
-        i18n: duplicate
-        label: Offset
+      - label: Offset
         name: offset
         options:
           values:
@@ -655,9 +512,7 @@ content:
             value: end
         required: false
         type: select
-      - description: ""
-        i18n: duplicate
-        label: Alignment
+      - label: Alignment
         name: align
         options:
           values:
@@ -670,94 +525,64 @@ content:
         required: false
         type: select
       - default: false
-        i18n: duplicate
         label: With a background?
         name: background
         required: false
         type: boolean
-      i18n: true
       label: Paragraph
       name: paragraph
       required: false
-      summary: '{{title}}'
       type: object
-    - collapsed: false
-      fields:
-      - collapsed: true
-        fields:
-        - i18n: true
-          label: Surtitle
+    - fields:
+      - fields:
+        - label: Surtitle
           name: surtitle
           required: false
           type: string
-        - i18n: true
-          label: Title
+        - label: Title
           name: title
           required: false
           type: string
-        - buttons:
-          - bold
-          - italic
-          - link
-          - bulleted-list
-          editor_components: []
-          i18n: true
-          label: Text
-          minimal: true
-          modes:
-          - rich_text
+        - label: Text
           name: text
+          options:
+            media: false
           required: false
           type: rich-text
-        i18n: true
         label: Heading
         name: heading
         required: false
-        summary: '{{title}}'
         type: object
-      - collapsed: true
-        fields:
+      - fields:
         - description: 'Resize and compress image before sending : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
-          i18n: true
           label: Image
           name: src
           options:
             media: images
           required: false
           type: image
-        - description: For an image that conveys information (leave blank if decorative
-            image)
-          i18n: true
+        - description: For an image that conveys information (leave blank if decorative image)
           label: Text alternative
           name: alt
           required: false
           type: string
-        - buttons:
-          - link
-          editor_components: []
-          i18n: true
-          label: Credit
-          minimal: true
-          modes:
-          - rich_text
+        - label: Credit
           name: credit
+          options:
+            media: false
           required: false
           type: rich-text
-        i18n: true
-        label: Image
+        label: Images
         name: image
         required: false
         type: object
-      - collapsed: true
-        fields:
+      - fields:
         - default: false
-          i18n: duplicate
-          label: Background?
+          label: Is background?
           name: background
           required: false
           type: boolean
-        - description: Video (MP4)
-          i18n: duplicate
+        - description: MP4 video file
           label: MP4
           name: mp4
           options:
@@ -766,8 +591,7 @@ content:
             media: videos
           required: false
           type: file
-        - description: Video (WEBM)
-          i18n: duplicate
+        - description: WEBM video file
           label: WEBM
           name: webm
           options:
@@ -776,9 +600,8 @@ content:
             media: videos
           required: false
           type: file
-        - description: Video (MP4)
-          i18n: duplicate
-          label: Mobile MP4
+        - description: MP4 video file for mobile
+          label: MP4 (Mobile)
           name: mp4_mobile
           options:
             extensions:
@@ -786,9 +609,8 @@ content:
             media: videos
           required: false
           type: file
-        - description: Video (WEBM)
-          i18n: duplicate
-          label: Mobile WEBM
+        - description: WEBM video file for mobile
+          label: WEBM (Mobile)
           name: webm_mobile
           options:
             extensions:
@@ -796,21 +618,15 @@ content:
             media: videos
           required: false
           type: file
-        i18n: true
         label: Video
         name: video
         required: false
         type: object
-      i18n: true
       label: Title
       name: title
       required: false
-      summary: '{{heading.title}}'
       type: object
-    collapsed: false
-    i18n: true
     label: Blocs
-    label_singular: Bloc
     list: true
     name: blocks
     required: false
@@ -822,4 +638,5 @@ content:
   name: pages
   path: content
   type: collection
+
 
