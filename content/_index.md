@@ -31,10 +31,10 @@ blocks:
   - type: title
     heading:
       surtitle: What we do
-      title: STORIES THAT FEEL LIVED, NOT SCRIPTED
-      text: We work closely with a network of athletes, explorers, and creators.
-        People who truly live this culture through their projects, expeditions,
-        and everyday adventures.
+      title: strategy, structure and purpose.
+      text: We help brands clarify who they are, where they stand culturally and how
+        their marketing ecosystem should operate, before any content is created.
+        Because creativity only scales when it’s structured.
     video:
       background: true
       mp4: /assets/videos/villagers_iwcfaction_desktop.mp4
