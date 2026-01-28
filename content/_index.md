@@ -2,9 +2,9 @@
 draft: false
 title: Home
 hero:
-  title: The Creative House of Outdoor Culture
-  text: A culturally fluent partner where creative strategy meets field expertise
-    and community connections.
+  title: MARKETING & CRÉATIVE CONSULTING PARTNER ROOTED IN OUTDOOR CULTURE
+  text: A culturally fluent partner dedicated to brands that want to structure,
+    amplify and activate their communication through culture.
   video:
     background: true
     mp4: /assets/videos/villagers_header_video_desktop.mp4
