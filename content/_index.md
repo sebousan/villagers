@@ -2,7 +2,7 @@
 draft: false
 title: Home
 hero:
-  title: MARKETING & CRÉATIVE CONSULTING PARTNER ROOTED IN OUTDOOR CULTURE
+  title: CONSULTING HOUSE ROOTED IN OUTDOOR CULTURE
   text: A culturally fluent partner dedicated to brands that want to structure,
     amplify and activate their communication through culture.
   video:
