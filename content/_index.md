@@ -2,9 +2,10 @@
 draft: false
 title: Home
 hero:
-  title: Strategy, culture, and Creative growth.
-  text: A culturally fluent partner dedicated to brands that want to structure,
-    amplify and activate their communication through the Outdoor Culture.
+  title: From Outdoor Culture to brand growth
+  text: We are culturally fluent partner dedicated to brands that want to
+    structure, amplify and activate their communication through the Outdoor
+    Culture.
   video:
     background: true
     mp4: /assets/videos/villagers_header_video_desktop.mp4
