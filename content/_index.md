@@ -32,9 +32,10 @@ blocks:
     heading:
       surtitle: What we do
       title: strategy, structure and purpose.
-      text: We help brands clarify who they are, where they stand culturally and how
-        their marketing ecosystem should operate, before any content is created.
-        Because creativity only scales when it’s structured.
+      text: We help brands activate and operate marketing through outdoor. By aligning
+        strategy, culture and execution. We define the narrative, structure the
+        marketing ecosystem, connect the right talents and ensure every
+        activation feels credible, consistent and lived.
     video:
       background: true
       mp4: /assets/videos/villagers_iwcfaction_desktop.mp4
