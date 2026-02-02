@@ -2,10 +2,10 @@
 draft: false
 title: Home
 hero:
-  title: From Outdoor Culture to brand growth
+  title: Advisory Bureau rooted in Culture
   text: We are culturally fluent partner dedicated to brands that want to
-    structure, amplify and activate their communication through the Outdoor
-    Culture.
+    structure, amplify and activate their communication through Culture and
+    Communities.
   video:
     background: true
     mp4: /assets/videos/villagers_header_video_desktop.mp4
