@@ -32,7 +32,7 @@ blocks:
     heading:
       surtitle: What we do
       title: strategy, structure and purpose.
-      text: We help brands activate and operate marketing through outdoor. By aligning
+      text: We help brands activate and operate marketing through Outdoor. By aligning
         strategy, culture and execution. We define the narrative, structure the
         marketing ecosystem, connect the right talents and ensure every
         activation feels credible, consistent and lived.
