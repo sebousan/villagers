@@ -22,7 +22,7 @@ blocks:
   - type: editorial
     direction: ltr
     surtitle: Why we exist
-    title: a cultural bridge to connect authentically with the culture
+    title: "a cultural bridge to connect authentically "
     text: For those who live the culture and those who aspire to join it, Villagers
       helps outdoor brands grow with authenticity and guides non-outdoor brands
       to connect credibly with this expanding cultural movement.
@@ -70,7 +70,7 @@ blocks:
   - type: editorial
     direction: ltr
     surtitle: WHO WE ARE
-    title: FOUNDED IN 2025. FORGED OVER THE YEAR
+    title: FOUNDED IN 2025. FORGED OVER THE YEARS
     text: Johann Bernast, Founder of Villagers, brings over 15 years of experience
       across global agencies such as DDB and BETC, and brands like Peugeot and
       Jaeger-LeCoultre. His dual background provides a 360° understanding of
