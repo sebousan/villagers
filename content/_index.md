@@ -2,7 +2,7 @@
 draft: false
 title: Home
 hero:
-  title: Advisory Bureau rooted in Outdoor Culture
+  title: We make brands culturally relevant
   text: We are culturally fluent partner dedicated to brands that want to
     structure, amplify and activate their communication through Culture and
     Communities.
