@@ -2,7 +2,7 @@
 draft: false
 title: Home
 hero:
-  title: We make brands culturally relevant
+  title: Creative House of Outdoor Culture
   text: We are culturally fluent partner dedicated to brands that want to
     structure, amplify and activate their communication through Culture and
     Communities.
