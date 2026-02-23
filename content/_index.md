@@ -7,7 +7,7 @@ hero:
     structure, amplify and activate their communication through Culture and
     Communities.
   video:
-    background: false
+    background: true
   video_modal:
     text: Play our reel
     mp4: /assets/videos/villagers_reel_video_desktop.mp4
