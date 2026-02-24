@@ -8,6 +8,10 @@ hero:
     Communities.
   video:
     background: true
+    mp4: /assets/videos/villagers_header_video_desktop_V2.mp4
+    webm: /assets/videos/villagers_header_video_desktop_V2.webm
+    mp4_mobile: /assets/videos/villagers_header_video_mobile_V2.mp4
+    webm_mobile: /assets/videos/villagers_header_video_mobile_V2.webm
   video_modal:
     text: Play our reel
     mp4: /assets/videos/villagers_reel_video_desktop.mp4
