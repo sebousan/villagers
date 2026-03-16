@@ -17,7 +17,7 @@ media:
     label: 'Picth clients'
     input: "/static/clients"
     output: "/clients"
-    categories: [ document ]
+    extensions: [ html ]
 
 content:
 - fields:
