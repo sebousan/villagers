@@ -12,9 +12,8 @@ media:
     input: /static/assets/videos
     output: /assets/videos
     categories: [ video ]
-  
   - name: clients
-    label: 'Picth clients'
+    label: 'Pitch clients'
     input: "/static/clients"
     output: "/clients"
     extensions: [ html ]
