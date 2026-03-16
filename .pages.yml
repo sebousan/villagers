@@ -13,6 +13,11 @@ media:
     output: /assets/videos
     categories: [ video ]
   
+  - name: clients
+    label: 'Picth clients'
+    input: "/static/clients"
+    output: "/clients"
+    categories: [ document ]
 
 content:
 - fields:
@@ -816,11 +821,12 @@ content:
     required: false
     type: block
   filename: '{fields.title}/_index.md'
-  folder: content
   i18n: true
   label: Pages
   label_singular: Page
   media_folder: /assets/images/uploads
   name: pages
+  path: content
   public_folder: /images/uploads
+  type: collection
 
