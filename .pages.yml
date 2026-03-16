@@ -89,8 +89,7 @@ content:
     name: title
     required: false
     type: string
-  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
-      preview
+  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
     i18n: true
     label: Description
     name: description
@@ -126,15 +125,13 @@ content:
     name: draft
     required: false
     type: boolean
-  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
-      preview
+  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
     i18n: true
     label: Page title
     name: title
     required: true
     type: string
-  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks
-      preview
+  - description: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
     i18n: true
     label: Description
     name: description
@@ -152,7 +149,8 @@ content:
       - italic
       - link
       - bulleted-list
-      editor_components: []
+      editor_components:
+      - code-block
       i18n: true
       label: Text
       minimal: true
@@ -275,7 +273,7 @@ content:
     blocks:
     - collapsed: false
       fields:
-      - description: ""
+      - description: ''
         i18n: duplicate
         label: Direction
         name: direction
@@ -302,7 +300,8 @@ content:
         - italic
         - link
         - bulleted-list
-        editor_components: []
+        editor_components:
+        - code-block
         i18n: true
         label: Text
         minimal: true
@@ -321,8 +320,7 @@ content:
             media: images
           required: false
           type: image
-        - description: For an image that conveys information (leave blank if decorative
-            image)
+        - description: For an image that conveys information (leave blank if decorative image)
           i18n: true
           label: Text alternative
           name: alt
@@ -330,7 +328,8 @@ content:
           type: string
         - buttons:
           - link
-          editor_components: []
+          editor_components:
+          - code-block
           i18n: true
           label: Credit
           minimal: true
@@ -369,7 +368,8 @@ content:
           - italic
           - link
           - bulleted-list
-          editor_components: []
+          editor_components:
+          - code-block
           i18n: true
           label: Text
           minimal: true
@@ -384,7 +384,7 @@ content:
         required: false
         summary: '{{title}}'
         type: object
-      - description: ""
+      - description: ''
         i18n: duplicate
         label: Grid
         name: grid
@@ -402,7 +402,7 @@ content:
             value: full
         required: true
         type: select
-      - description: ""
+      - description: ''
         i18n: duplicate
         label: Offset
         name: offset
@@ -500,7 +500,7 @@ content:
           name: placeholder
           required: false
           type: string
-        - description: ""
+        - description: ''
           i18n: duplicate
           label: Autocomplete
           name: autocomplete
@@ -563,7 +563,8 @@ content:
         - italic
         - link
         - bulleted-list
-        editor_components: []
+        editor_components:
+        - code-block
         i18n: true
         label: Text
         minimal: true
@@ -573,8 +574,7 @@ content:
         required: false
         type: rich-text
       - collapsed: true
-        description: To link a word in the text to a note, suffix it with "[*]". Notes
-          and "[\\*]" are linked by their order.
+        description: 'To link a word in the text to a note, suffix it with "[*]". Notes and "[\\*]" are linked by their order.'
         fields:
         - i18n: true
           label: Text
@@ -601,8 +601,7 @@ content:
           name: url
           required: false
           type: string
-        - description: Enter code lang (e.g. fr) if different of the current page
-            language
+        - description: Enter code lang (e.g. fr) if different of the current page language
           i18n: true
           label: Language
           name: lang
@@ -623,7 +622,7 @@ content:
         required: false
         summary: '{{fields.text}}'
         type: object
-      - description: ""
+      - description: ''
         i18n: duplicate
         label: Grid
         name: grid
@@ -641,7 +640,7 @@ content:
             value: full
         required: true
         type: select
-      - description: ""
+      - description: ''
         i18n: duplicate
         label: Offset
         name: offset
@@ -655,7 +654,7 @@ content:
             value: end
         required: false
         type: select
-      - description: ""
+      - description: ''
         i18n: duplicate
         label: Alignment
         name: align
@@ -700,7 +699,8 @@ content:
           - italic
           - link
           - bulleted-list
-          editor_components: []
+          editor_components:
+          - code-block
           i18n: true
           label: Text
           minimal: true
@@ -725,8 +725,7 @@ content:
             media: images
           required: false
           type: image
-        - description: For an image that conveys information (leave blank if decorative
-            image)
+        - description: For an image that conveys information (leave blank if decorative image)
           i18n: true
           label: Text alternative
           name: alt
@@ -734,7 +733,8 @@ content:
           type: string
         - buttons:
           - link
-          editor_components: []
+          editor_components:
+          - code-block
           i18n: true
           label: Credit
           minimal: true
@@ -816,10 +816,11 @@ content:
     required: false
     type: block
   filename: '{fields.title}/_index.md'
+  folder: content
   i18n: true
   label: Pages
   label_singular: Page
+  media_folder: /assets/images/uploads
   name: pages
-  path: content
-  type: collection
+  public_folder: /images/uploads
 

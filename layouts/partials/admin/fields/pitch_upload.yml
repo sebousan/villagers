@@ -1,0 +1,8 @@
+{
+  label: 'Pitch upload',
+  name: 'pitch',
+  widget: 'file',
+  media_folder: "static/clients",
+  required: false,
+  i18n: 'duplicate'
+}

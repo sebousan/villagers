@@ -1,0 +1,8 @@
+{{- $fields := slice "pitch" -}}
+{
+  label: 'Pitch',
+  name: 'pitch',
+  file: 'data/pitch.yml',
+  i18n: false,
+  {{- partial "admin/fields/_fields.yml" $fields -}}
+}
