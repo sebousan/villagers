@@ -2,9 +2,9 @@
 draft: false
 title: Home
 hero:
-  title: Creative House of Outdoor Culture
+  title: Strategic bureau of Outdoor Culture
   text: We are culturally fluent partner dedicated to brands that want to
-    structure, amplify and activate their communication through Culture and
+    structure, activate and amplify their communication through Culture and
     Communities.
   video:
     background: true
