@@ -67,10 +67,10 @@ blocks:
   - type: editorial
     direction: ltr
     surtitle: WHO WE ARE
-    title: FOUNDED IN 2025. FORGED OVER THE YEARS
-    text: "Villagers is a collective of marketing strategists, creatives,
-      specialists and athletes. Led by Johann Bernast: 15+ years across agencies
-      such as DDB and BETC, and brands like Peugeot and Jaeger-LeCoultre. "
+    title: Villagers is a collective
+    text: "Of marketing strategists, creatives, specialists and athletes. Led by
+      Johann Bernast: 15+ years across agencies such as DDB and BETC, and brands
+      like Peugeot and Jaeger-LeCoultre. "
     image:
       src: /images/uploads/Capture d’écran 2026-09-07 à 09.09.38.png
   - type: form
