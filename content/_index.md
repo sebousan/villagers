@@ -2,7 +2,7 @@
 draft: false
 title: Home
 hero:
-  title: Strategic bureau of Outdoor Culture
+  title: Strategic bureau for outdoor culture
   text: We are culturally fluent partner dedicated to brands that want to
     structure, activate and amplify their communication through Culture and
     Communities.
