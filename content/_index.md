@@ -68,14 +68,19 @@ blocks:
     direction: ltr
     surtitle: WHO WE ARE
     title: FOUNDED IN 2025. FORGED OVER THE YEARS
-    text: Johann Bernast, Founder of Villagers, brings over 15 years of experience
+    text: >-
+      Villagers is a collective of marketing strategists, creative directors,
+      experts in their field and athletes, led by Johann Bernast over 15 years
       across global agencies such as DDB and BETC, and brands like Peugeot and
-      Jaeger-LeCoultre. His dual background provides a 360° understanding of
-      creativity, strategic and operational, bold yet grounded. Ultra-trail and
-      Ironman finisher and an avid cyclist he channels the same endurance,
-      discipline, and passion from the outdoors into building brands.
+      Jaeger-LeCoultre.
+
+
+      We don't work with a standing team. We build the one each project needs,
+      and the line-up shifts with the challenge. We don't just respond to a
+      brief. We bring our expertise to raise the level of every project and
+      every brand we work with.
     image:
-      src: /images/uploads/VILLAGERS_JohannBernast_04.jpg
+      src: /images/uploads/Capture d’écran 2026-09-07 à 09.09.38.png
   - type: form
     heading:
       surtitle: Contact
