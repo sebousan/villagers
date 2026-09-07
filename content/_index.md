@@ -58,9 +58,6 @@ blocks:
       title: Supported by an experienced field partner
       text: To bring this vision to life, Villagers fused with BlueMax Media,
         representing the convergence of creative strategy and field expertise .
-    image:
-      src: /images/uploads/logo-bluemax-white.png
-      alt: BlueMax
     video:
       background: true
       mp4: /assets/videos/villagers_bluemaxmedia_candidethovex_desktop.mp4
